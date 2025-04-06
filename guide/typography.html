@@ -1,43 +1,65 @@
 <!DOCTYPE html>
 <html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typography</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <script type="module" src="./js/clipBoard.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Typography</title>
-  <link rel="stylesheet" href="../css/style.css" />
-  <script type="module" src="./js/clipBoard.js"></script>
-</head>
-
-<body>
-  <h2>Text Color</h2>
-  <div class="copy-group">
+  <body>
+    <h2>Text Color</h2>
+    <div class="copy-group">
+      <div class="copy">
+        <div class="text-xl text-primary">text-primary</div>
+      </div>
+      <div class="copy">
+        <div class="text-xl text-secondary">text-secondary</div>
+      </div>
+      <div class="copy">
+        <div class="text-xl text-danger">text-danger</div>
+      </div>
+      <div class="copy">
+        <div class="text-xl text-success">text-success</div>
+      </div>
+      <div class="copy">
+        <div class="text-xl text-warning">text-warning</div>
+      </div>
+    </div>
+    <h2>Text Type</h2>
+    <h2>Text Type</h2>
     <div class="copy">
-      <div class="text-xl text-primary">text-primary</div>
+      <p class="text-xxxs">text-xxxs / 1.2rem (12px) - caption-2, hairline-2</p>
+      <p class="text-xxs">text-xxs / 1.4rem (14px) - caption-1, button-xs</p>
+      <p class="text-xs">text-xs / 1.6rem (16px) - body-2, button-s, hairline-1</p>
+      <p class="text-sm">text-sm / 1.8rem (18px) - button-m</p>
+      <p class="text-base">text-base / 2rem (20px) - body-1, headline-7</p>
+      <p class="text-md">text-md / 2.4rem (24px)</p>
+      <p class="text-lg">text-lg / 2.8rem (28px) - headline-6</p>
+      <p class="text-xl">text-xl / 3.2rem (32px)</p>
+      <p class="text-xxl">text-xxl / 3.4rem (34px) - headline-5</p>
+      <p class="text-3xl">text-3xl / 4rem (40px) - headline-4</p>
+      <p class="text-4xl">text-4xl / 5.4rem (54px) - headline-3</p>
+      <p class="text-5xl">text-5xl / 7.2rem (72px) - headline-2</p>
+      <p class="text-6xl">text-6xl / 8rem (80px) - headline-1</p>
+      <p class="text-7xl">text-7xl / 9.6rem (96px) - hero</p>
+    </div>
+    <h2>Link Text</h2>
+    <div class="copy">
+      <a href="#" class="link">Default Link</a>
     </div>
     <div class="copy">
-      <div class="text-xl text-secondary">text-secondary</div>
+      <a href="#" class="link text-primary">Primary Color Link</a>
     </div>
     <div class="copy">
-      <div class="text-xl text-danger">text-danger</div>
+      <a href="#" class="link text-danger">Danger Color Link</a>
     </div>
     <div class="copy">
-      <div class="text-xl text-success">text-success</div>
+      <a href="#" class="link text-lg">Large Link</a>
     </div>
-  </div>
-  <h2>Text Type</h2>
-  <div class="copy">
-    <p class="text-xs">text-xs / 1rem</p>
-    <p class="text-sm">text-sm / 1rem</p>
-    <p class="text-base">text-base / 1rem</p>
-    <p class="text-md">text-md / 1rem</p>
-    <p class="text-lg">text-lg / 1rem</p>
-    <p class="text-xl">text-xl / 1rem</p>
-  </div>
-  <h2>Link Text</h2>
-  <div class="copy">
-    <a href="" class="link">link</a>
-  </div>
-</body>
-
+    <div class="copy">
+      <a href="#" class="link font-bold">Bold Link</a>
+    </div>
+  </body>
 </html>

@@ -1,0 +1,210 @@
+.about-wrap {
+  .mb40 {
+    margin-bottom: 4rem;
+  }
+
+  @media (max-width: 885px) {
+    .mb40 {
+      margin-bottom: 0 !important;
+    }
+  }
+
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+
+  @media (max-width: 885px) {
+    width: 100%;
+    max-width: 100%;
+    /* background-color: rgb(182, 255, 80); */
+  }
+
+  /*1.intro*/
+  .intro {
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+
+    h1,
+    p {
+      width: 100%;
+      word-break: keep-all; /* 단어 단위 줄바꿈 */
+      box-sizing: border-box;
+    }
+
+    @media (max-width: 885px) {
+      width: 100%;
+      padding: 30px 15px;
+    }
+  }
+
+  /*2.about us*/
+  .about {
+    background-color: var(--gray100-20);
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+
+    @media (max-width: 885px) {
+      flex-direction: column;
+      height: auto;
+      max-width: 100%;
+      margin: 0; /* 마진 제거 */
+    }
+
+    .about-image {
+      flex: 1;
+      overflow: hidden;
+
+      @media (max-width: 885px) {
+        width: 100%;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* 중요: 이미지가 영역을 꽉 채우면서 비율 유지 */
+        display: block;
+      }
+    }
+
+    .about-text {
+      flex: 1;
+      padding: 20px;
+      box-sizing: border-box;
+      background-color: var(--gray200);
+
+      @media (max-width: 885px) {
+        width: 100%;
+        padding: 30px 15px;
+      }
+    }
+  }
+
+  /*3.Contact us area*/
+  .contact {
+    width: 100%;
+
+    @media (max-width: 885px) {
+      width: 100%;
+      padding: 30px 0;
+    }
+
+    /* Icon styles */
+    .icon-01,
+    .icon-02,
+    .icon-03 {
+      width: 48px;
+      height: 48px;
+
+      margin: 0 auto 10px;
+    }
+
+    .icon-01 {
+      background: url(../images/ico_contactus_01.svg) no-repeat center / contain;
+    }
+    .icon-02 {
+      background: url(../images/ico_contactus_02.svg) no-repeat center / contain;
+    }
+    .icon-03 {
+      background: url(../images/ico_contactus_03.svg) no-repeat center / contain;
+    }
+
+    .contact-info {
+      width: 100%;
+      display: flex;
+      gap: 2.4rem;
+      justify-content: space-between;
+
+      @media (max-width: 885px) {
+        flex-direction: column; /* 세로 방향으로 변경 */
+        gap: 1.2rem;
+        align-items: center;
+      }
+
+      .contact-card {
+        flex: 1;
+        padding: 1.6rem;
+        display: grid;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        background-color: var(--gray200);
+
+        @media (max-width: 885px) {
+          width: 100%;
+          margin-bottom: 0;
+          padding: 1.6rem 1.2rem;
+        }
+      }
+    }
+  }
+
+  /*4.form, map area*/
+  .contact-form-area {
+    display: flex;
+    margin: 0;
+    gap: 2.8rem;
+
+    @media (max-width: 885px) {
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .contact-form {
+      flex: 1;
+      padding: 2rem 0;
+      box-sizing: border-box;
+
+      @media (max-width: 885px) {
+        width: 100%;
+        padding: 2rem;
+      }
+    }
+    .map {
+      flex: 1;
+      overflow: hidden;
+      box-sizing: border-box;
+      margin: 0;
+      line-height: 0;
+
+      @media (max-width: 885px) {
+        width: 100%;
+        height: 300px;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+    }
+  }
+
+  .title-center {
+    padding-top: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    width: 100%; /* 전체 너비 설정 */
+    box-sizing: border-box; /* 패딩을 포함한 크기 계산 */
+  }
+
+  /* Form field 영역 */
+
+  .form-field {
+    display: grid;
+    gap: 0.8rem;
+    align-items: center;
+    margin-bottom: 3rem;
+
+    @media (min-width: 886px) {
+      align-items: center;
+      align-items: center;
+      margin-bottom: 2.4rem;
+    }
+  }
+}
