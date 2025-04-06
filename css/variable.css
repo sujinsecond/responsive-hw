@@ -65,12 +65,12 @@
   --green100: #eef7f0; */
 
   /* Blue Colors */
-  /* --blue900: #07152f;
+  /* --blue900: #07152f;*/
   --blue800: #0e2b5e;
-  --blue700: #16408d; */
+  --blue700: #16408d;
   --blue600: #377dff; /* Blue from Figma */
-  /* --blue400: #5089ef;
-  --blue300: #7ca6f3;
+  /* --blue400: #5089ef; */
+  /* --blue300: #7ca6f3;
   --blue200: #a7c4f7;
   --blue100: #d3e1fb; */
 
@@ -133,6 +133,8 @@
   --ls-lg: -0.1rem; /* -1px for headline-3 */
 
   /* Font Weights */
+  --fw-xlight: 200;
+  --fw-light: 300;
   --fw-regular: 400;
   --fw-medium: 500;
   --fw-semibold: 600;

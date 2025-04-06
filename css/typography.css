@@ -3,10 +3,12 @@
 /* -------------------------------------------------------------------------- */
 
 body {
+  background-color: light-dark(var(--gray100), var(--blue600));
   font-family: var(--ff-body);
-  font-size: var(--font-xs); /* 16px base */
+  font-size: var(--fs, var(--font-xs)); /* 16px base */
   line-height: var(--lh-base);
-  color: var(--gray800);
+  /* color: var(--gray800); */
+  color: light-dark(var(--secondary), var(--white));
 }
 
 /* Text Size Utilities */
@@ -130,7 +132,7 @@ body {
 
 /* Figma Style Text Classes */
 .hero {
-  color: light-dark(var(--gray800), var(--green600));
+  color: light-dark(var(--gray800), var(--blue600));
   font-size: var(--fs, var(--hero-size));
   line-height: var(--lh, var(--lh-6xl));
   letter-spacing: var(--ls, var(--ls-base));
@@ -139,7 +141,7 @@ body {
 }
 
 .headline-1 {
-  color: light-dark(var(--gray800), var(--green600));
+  color: light-dark(var(--gray800), var(--blue600));
   font-size: var(--fs, var(--headline-1-size));
   line-height: var(--lh, var(--lh-5xl));
   letter-spacing: var(--ls, var(--ls-base));
@@ -148,7 +150,7 @@ body {
 }
 
 .headline-2 {
-  color: light-dark(var(--gray800), var(--green600));
+  color: light-dark(var(--gray800), var(--blue600));
   font-size: var(--fs, var(--headline-2-size));
   line-height: var(--lh, var(--lh-4xl));
   letter-spacing: var(--ls, var(--ls-base));
@@ -157,7 +159,7 @@ body {
 }
 
 .headline-3 {
-  color: light-dark(var(--gray800), var(--green600));
+  color: light-dark(var(--gray800), var(--gray800));
   font-size: var(--fs, var(--headline-3-size));
   line-height: var(--lh, var(--lh-3xl));
   letter-spacing: var(--ls, var(--ls-lg));
@@ -166,7 +168,7 @@ body {
 }
 
 .headline-4 {
-  color: light-dark(var(--gray800), var(--green600));
+  color: light-dark(var(--gray800), var(--gray800));
   font-size: var(--fs, var(--headline-4-size));
   line-height: var(--lh, var(--lh-xxl));
   letter-spacing: var(--ls, var(--ls-md));
@@ -175,7 +177,7 @@ body {
 }
 
 .headline-5 {
-  color: light-dark(var(--gray800), var(--green600));
+  color: light-dark(var(--gray800), var(--blue600));
   font-size: var(--fs, var(--headline-5-size));
   line-height: var(--lh, var(--lh-xl));
   letter-spacing: var(--ls, var(--ls-base));
@@ -184,7 +186,7 @@ body {
 }
 
 .headline-6 {
-  color: light-dark(var(--gray800), var(--green600));
+  color: light-dark(var(--gray800), var(--blue600));
   font-size: var(--fs, var(--headline-6-size));
   line-height: var(--lh, var(--lh-lg));
   letter-spacing: var(--ls, var(--ls-base));
@@ -193,7 +195,7 @@ body {
 }
 
 .headline-7 {
-  color: light-dark(var(--gray800), var(--green600));
+  color: light-dark(var(--gray800), var(--blue600));
   font-size: var(--fs, var(--headline-7-size));
   line-height: var(--lh, var(--lh-md));
   letter-spacing: var(--ls, var(--ls-base));
@@ -202,7 +204,7 @@ body {
 }
 
 .body-1 {
-  color: light-dark(var(--blue600), var(--green600));
+  color: light-dark(var(--blue600), var(--blue600));
   font-size: var(--fs, var(--body-1-size));
   line-height: var(--lh, var(--lh-md));
   letter-spacing: var(--ls, var(--ls-base));
@@ -211,7 +213,7 @@ body {
 }
 
 .body-1-semi {
-  color: light-dark(var(--blue600), var(--green600));
+  color: light-dark(var(--blue600), var(--blue600));
   font-size: var(--fs, var(--body-1-size));
   line-height: var(--lh, var(--lh-md));
   letter-spacing: var(--ls, var(--ls-base));
@@ -220,7 +222,7 @@ body {
 }
 
 .body-1-bold {
-  color: light-dark(var(--blue600), var(--green600));
+  color: light-dark(var(--blue600), var(--blue600));
   font-size: var(--fs, var(--body-1-size));
   line-height: var(--lh, var(--lh-md));
   letter-spacing: var(--ls, var(--ls-base));
@@ -229,7 +231,7 @@ body {
 }
 
 .body-2 {
-  color: light-dark(var(--blue600), var(--green600));
+  color: light-dark(var(--blue600), var(--white));
   font-size: var(--fs, var(--body-2-size));
   line-height: var(--lh, var(--lh-base));
   letter-spacing: var(--ls, var(--ls-base));
@@ -238,7 +240,7 @@ body {
 }
 
 .body-2-semi {
-  --color: light-dark(var(--blue600), var(--green600));
+  --color: light-dark(var(--blue600), var(--white));
   color: var(--color, var(--gray700));
 
   font-size: var(--fs, var(--body-2-size));
@@ -249,7 +251,7 @@ body {
 }
 
 .body-2-bold {
-  color: light-dark(var(--blue600), var(--green600));
+  color: light-dark(var(--blue600), var(--blue600));
   font-size: var(--fs, var(--body-2-size));
   line-height: var(--lh, var(--lh-base));
   letter-spacing: var(--ls, var(--ls-base));
@@ -284,7 +286,7 @@ b {
 
 /* Hairline Text (All Caps) */
 .hairline-1 {
-  color: light-dark(var(--gray500), var(--green600));
+  color: light-dark(var(--gray500), var(--blue600));
   font-family: var(--ff-body-bold);
   font-size: var(--font-xs);
   line-height: var(--lh-xxs);
@@ -293,7 +295,7 @@ b {
 }
 
 .hairline-2 {
-  color: light-dark(var(--gray500), var(--green600));
+  color: light-dark(var(--gray500), var(--blue600));
   font-family: var(--ff-body-bold);
   font-size: var(--font-xxxs);
   line-height: var(--lh-xxxs);
@@ -311,7 +313,7 @@ b {
 }
 
 .btn-s {
-  --color: light-dark(var(--blue600), var(--green600));
+  --color: light-dark(var(--blue600), var(--white));
   color: var(--color, var(--gray700));
 
   font-family: var(--ff-button);

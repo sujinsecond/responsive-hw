@@ -5,8 +5,8 @@
   --borderColor: gray;
   --offColor: silver;
   --offBgColor: rgba(0, 0, 0, 0.05);
-  --onColor: lightgreen;
-  --onBgColor: green;
+  --onColor: light-dark(var(--blue600), var(--gray800));
+  --onBgColor: light-dark(var(--blue600), var(--gray800));
   --textColor: #000;
 
   input {

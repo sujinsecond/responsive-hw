@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>아이콘이 앞뒤로 붙는 예시</title>
+    <style>
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f5f5f5;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background-color: white;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      /* 메뉴 아이템 스타일 */
+      .menu-item {
+        position: relative;
+        padding: 10px 15px;
+        background-color: #f9f9f9;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        transition: all 0.3s ease;
+      }
+
+      /* before를 사용한 아이콘 추가 */
+      .menu-item::before {
+        content: '🔍'; /* 검색 아이콘 */
+        margin-right: 10px;
+      }
+
+      /* after를 사용한 아이콘 추가 */
+      .menu-item::after {
+        content: '→'; /* 화살표 아이콘 */
+        margin-left: 10px;
+        font-weight: bold;
+      }
+
+      .menu-item:hover {
+        background-color: #e9e9e9;
+      }
+
+      /* 알림 메시지 스타일 */
+      .notification {
+        position: relative;
+        padding: 10px 15px;
+        background-color: #e8f5e9;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+      }
+
+      /* before를 사용한 아이콘 추가 */
+      .notification::before {
+        content: '✅'; /* 성공 아이콘 */
+        margin-right: 10px;
+      }
+
+      /* after를 사용한 아이콘 추가 */
+      .notification::after {
+        content: 'ⓘ'; /* 정보 아이콘 */
+        margin-left: 10px;
+        color: #4caf50;
+      }
+
+      /* 이메일 스타일 */
+      .email {
+        position: relative;
+        padding: 10px 15px;
+        background-color: #e3f2fd;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+      }
+
+      /* before를 사용한 아이콘 추가 */
+      .email::before {
+        content: '📧'; /* 이메일 아이콘 */
+        margin-right: 10px;
+      }
+
+      /* after를 사용한 아이콘 추가 - SVG 아이콘 */
+      .email::after {
+        content: '';
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        margin-left: 10px;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%232196f3'%3E%3Cpath d='M19 3h-4.18C14.4 1.84 13.3 1 12 1c-1.3 0-2.4.84-2.82 2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 0c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm-2 14l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z'/%3E%3C/svg%3E");
+        background-size: contain;
+      }
+
+      /* 링크 스타일 */
+      .link {
+        position: relative;
+        padding: 10px 15px;
+        background-color: #fff3e0;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #333;
+      }
+
+      /* before를 사용한 아이콘 추가 */
+      .link::before {
+        content: '🔗'; /* 링크 아이콘 */
+        margin-right: 10px;
+      }
+
+      /* after를 사용한 아이콘 추가 */
+      .link::after {
+        content: '↗'; /* 외부 링크 아이콘 */
+        margin-left: 10px;
+        font-size: 0.8em;
+        vertical-align: super;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>::before와 ::after로 아이콘 추가하기</h2>
+
+    <div class="container">
+      <div class="menu-item">검색 메뉴 아이템</div>
+      <div class="notification">작업이 완료되었습니다</div>
+      <div class="email">새로운 메일이 도착했습니다</div>
+      <a href="#" class="link">외부 웹사이트 바로가기</a>
+    </div>
+  </body>
+</html>

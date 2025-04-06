@@ -32,12 +32,12 @@
   /* -------------------------------------------------------------------------- */
   &.primary {
     color: var(--white);
-    background-color: var(--primary);
+    background-color: light-dark(var(--primary), var(--primary));
   }
   &.secondary {
-    color: var(----gray500);
-    background-color: var(--white);
-    border: 1px solid var(--gray500);
+    color: light-dark(var(--white), var(--white));
+    background-color: light-dark(var(--gray800), var(--gray800));
+    border: 1px solid light-dark(var(--gray800), var(--gray800));
   }
   &:disabled {
     opacity: 0.2;

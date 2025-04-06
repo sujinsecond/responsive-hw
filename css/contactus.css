@@ -75,7 +75,7 @@
       flex: 1;
       padding: 20px;
       box-sizing: border-box;
-      background-color: var(--gray200);
+      background-color: light-dark(var(--gray200), var(--gray100-10));
 
       @media (max-width: 885px) {
         width: 100%;
@@ -132,7 +132,7 @@
         align-items: center;
         text-align: center;
         justify-content: center;
-        background-color: var(--gray200);
+        background-color: light-dark(var(--gray200), var(--gray100-20));
 
         @media (max-width: 885px) {
           width: 100%;

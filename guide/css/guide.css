@@ -250,6 +250,8 @@ iframe {
   font-size: 1.6rem;
   line-height: 1;
   gap: 0.5rem;
+  color: light-dark(var(--gray700), var(--white));
+
   &::before {
     content: '다크';
   }
