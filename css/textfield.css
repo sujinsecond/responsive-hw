@@ -17,6 +17,7 @@
   padding-block: var(--paddingY, 0);
   width: var(--width);
   height: var(--height);
+
   border: 1px solid var(--borderColor);
   border-radius: var(--rounded);
   box-sizing: border-box;
@@ -31,7 +32,7 @@
   }
   &:hover {
     border-color: var(--hoverBorderColor);
-    border: 0.2rem solid var(--borderColor);
+    border: 0.3rem solid var(--borderColor);
     background-color: light-dark(var(--gray300), var(--gray100-20));
   }
   &:focus {

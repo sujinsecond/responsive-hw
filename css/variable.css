@@ -65,9 +65,10 @@
   --green100: #eef7f0; */
 
   /* Blue Colors */
-  /* --blue900: #07152f;*/
+  /* --blue900: #030e3b; */
   --blue800: #0e2b5e;
   --blue700: #16408d;
+  --blue680: #092fcd;
   --blue600: #377dff; /* Blue from Figma */
   /* --blue400: #5089ef; */
   /* --blue300: #7ca6f3;
@@ -141,9 +142,9 @@
   --fw-bold: 700;
 
   /* Font Families */
-  --ff-heading: 'Poppins-Medium', sans-serif;
-  --ff-body: 'Inter-Regular', sans-serif;
-  --ff-body-semi: 'Inter-SemiBold', sans-serif;
-  --ff-body-bold: 'Inter-Bold', sans-serif;
-  --ff-button: 'Inter-Medium', sans-serif;
+  --ff-heading: 'Poppins', sans-serif;
+  --ff-body: 'Inter', sans-serif;
+  --ff-body-semi: 'Inter', sans-serif;
+  --ff-body-bold: 'Inter', sans-serif;
+  --ff-button: 'Inter', sans-serif;
 }

@@ -201,10 +201,20 @@
     align-items: center;
     margin-bottom: 3rem;
 
-    @media (min-width: 886px) {
+    @media (max-width: 886px) {
       align-items: center;
-      align-items: center;
-      margin-bottom: 2.4rem;
+      margin-bottom: 2rem;
+    }
+  }
+  .text-field {
+    --width: 100%;
+
+    @media (width < 885px) {
+      --height: 6rem;
+      --fontSize: 2.4rem;
+      &::placeholder {
+        font-size: 2.4rem;
+      }
     }
   }
 }

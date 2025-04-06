@@ -1,6 +1,8 @@
 /* -------------------------------------------------------------------------- */
 /*                                  Typography                                */
 /* -------------------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+KR:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+KR:wght@100..900&family=Poppins:wght@400;500&display=swap');
 
 body {
   background-color: light-dark(var(--gray100), var(--blue600));
@@ -286,7 +288,7 @@ b {
 
 /* Hairline Text (All Caps) */
 .hairline-1 {
-  color: light-dark(var(--gray500), var(--blue600));
+  color: light-dark(var(--gray700), var(--blue680));
   font-family: var(--ff-body-bold);
   font-size: var(--font-xs);
   line-height: var(--lh-xxs);
@@ -295,7 +297,7 @@ b {
 }
 
 .hairline-2 {
-  color: light-dark(var(--gray500), var(--blue600));
+  color: light-dark(var(--gray500), var(--blue800));
   font-family: var(--ff-body-bold);
   font-size: var(--font-xxxs);
   line-height: var(--lh-xxxs);
@@ -379,3 +381,44 @@ b {
 .text-warning {
   color: var(--warning);
 }
+
+/* font-family */
+/* .poppins-regular {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.inter-regular {
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inter-medium {
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.inter-semibold {
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.inter-bold {
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+} */
