@@ -23,7 +23,9 @@
   .top-group {
     display: flex;
     justify-content: space-between;
-    /* background-color: azure; */
+    @media (max-width: 885px) {
+      padding: 0 3.2rem;
+    }
   }
 
   /*breadcrumb*/
@@ -122,7 +124,7 @@
 
       @media (max-width: 885px) {
         width: 100%;
-        padding: 30px 15px;
+        padding: 3rem 3.2rem;
       }
     }
   }
