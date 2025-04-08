@@ -43,6 +43,12 @@
     background-color: light-dark(var(--gray800), var(--gray800));
     border: 1px solid light-dark(var(--gray800), var(--gray800));
   }
+  &.outline-primary {
+    color: light-dark(var(--blue600), var(--white));
+  }
+  &.outline-secondary {
+    color: light-dark(var(--gray800), var(--white));
+  }
   &:disabled {
     opacity: 0.2;
   }
@@ -60,11 +66,12 @@
   }
   &.ico1 {
     --width: 2rem;
-    --bg: url('../images/ico1.svg');
+    --bg: url('data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2220%22%20height%3D%2221%22%20viewBox%3D%220%200%2020%2021%22%20fill%3D%22none%22%3E%20%20%20%3Cpath%20d%3D%22M4.16666%2010.5H15.8333%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%221.25%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%20%20%20%3Cpath%20d%3D%22M10.8333%2015.5L15.8333%2010.5%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%221.25%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%20%20%20%3Cpath%20d%3D%22M10.8333%205.5L15.8333%2010.5%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%221.25%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%20%3C%2Fsvg%3E');
   }
+
   &.ico2 {
     --width: 2rem;
-    --bg: url('../images/ico2.svg');
+    --bg: url('data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2220%22%20height%3D%2221%22%20viewBox%3D%220%200%2020%2021%22%20fill%3D%22none%22%3E%20%20%20%3Cpath%20d%3D%22M4.16666%2010.5H15.8333%22%20stroke%3D%22%23121212%22%20stroke-width%3D%221.25%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%20%20%20%3Cpath%20d%3D%22M10.8333%2015.5L15.8333%2010.5%22%20stroke%3D%22%23121212%22%20stroke-width%3D%221.25%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%20%20%20%3Cpath%20d%3D%22M10.8333%205.5L15.8333%2010.5%22%20stroke%3D%22%23121212%22%20stroke-width%3D%221.25%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%20%3C%2Fsvg%3E');
   }
 }
 
