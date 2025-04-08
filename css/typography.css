@@ -351,14 +351,14 @@ b {
 
 /* Link Styles */
 .link {
-  text-decoration: underline 2px;
-  text-decoration-color: var(--red600);
-  text-underline-offset: 3px;
   cursor: pointer;
 }
 
 .link:hover {
-  color: var(--primary);
+  color: var(--gray600);
+  text-decoration: underline 0.3rem;
+  text-decoration-color: var(--gray800);
+  text-underline-offset: 0.8rem;
 }
 
 /* Text Colors */
