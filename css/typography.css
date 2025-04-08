@@ -422,3 +422,18 @@ b {
   font-weight: 700;
   font-style: normal;
 } */
+
+.button-text-size {
+  color: blue;
+}
+.body-text-size {
+  color: red;
+}
+.caption-text.size {
+  color: violet;
+}
+.text-size-group {
+  p {
+    margin-bottom: 2rem;
+  }
+}
