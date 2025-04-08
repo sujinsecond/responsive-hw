@@ -245,7 +245,7 @@ body {
   --color: light-dark(var(--blue600), var(--white));
   color: var(--color, var(--gray700));
 
-  font-size: var(--fs, var(--body-2-size));
+  font-size: var(--fs, var(--caption-1-size));
   line-height: var(--lh, var(--lh-base));
   letter-spacing: var(--ls, var(--ls-base));
   font-weight: var(--fw, var(--fw-regular));
