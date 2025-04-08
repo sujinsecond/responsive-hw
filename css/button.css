@@ -9,22 +9,26 @@
   /*                                    크기정의                                  */
   /* -------------------------------------------------------------------------- */
   &.base {
-    --px: 1rem;
-    --py: 1rem;
-    /* --fs:1.2rem; */
+    --px: 4rem;
+    --py: 0.4rem;
+    --fs: 1.6rem;
 
     padding-inline: var(--px);
     padding-block: var(--py);
     font-size: var(--fs, var(--font-base));
+    border-radius: 0.8rem;
+    line-height: var(--lh-7xl);
   }
   &.md {
-    --px: 1.2rem;
-    --py: 1.2rem;
-    /* --fs:1.2rem; */
+    --px: 4rem;
+    --py: 0.4rem;
+    --fs: 2rem;
 
     padding-inline: var(--px);
     padding-block: var(--py);
     font-size: var(--fs, var(--font-base));
+    border-radius: 0.8rem;
+    line-height: var(--lh-7xl);
   }
 
   /* -------------------------------------------------------------------------- */

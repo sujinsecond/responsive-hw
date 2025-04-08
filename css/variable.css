@@ -126,6 +126,7 @@
   --lh-4xl: 1.06; /* 76px (headline-2) */
   --lh-5xl: 1.05; /* 84px (headline-1) */
   --lh-6xl: 1; /* 96px (hero) */
+  --lh-7xl: 2; /* test */
 
   /* Letter Spacing */
   --ls-sm: -0.02rem; /* -0.2px for smaller text */
@@ -147,4 +148,6 @@
   --ff-body-semi: 'Inter', sans-serif;
   --ff-body-bold: 'Inter', sans-serif;
   --ff-button: 'Inter', sans-serif;
+
+  /*img-test*/
 }

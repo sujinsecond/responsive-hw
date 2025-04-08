@@ -20,23 +20,62 @@
     max-width: 100%;
     /* background-color: rgb(182, 255, 80); */
   }
+  /*breadcrumb*/
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    /* color: var(--gray500, #605f5f); */
+    color: light-dark(var(--gray500, #605f5f), var(--gray200-50));
+    font-family: Inter;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    font-feature-settings: 'liga' off, 'clig' off;
 
+    .startpoint {
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
+      /* background-color: lemonchiffon; */
+      a:hover {
+        text-decoration: underline;
+        text-decoration-thickness: 0.2rem;
+        text-underline-offset: 0.5rem;
+      }
+    }
+    .bread-icon {
+      width: 1.2rem;
+      height: 1.2rem;
+      background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%2012%2012%22%20fill%3D%22none%22%3E%20%20%20%3Cpath%20d%3D%22M4.58423%203L7.58423%206L4.58423%209%22%20stroke%3D%22%23605F5F%22%20stroke-width%3D%220.75%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%20%3C%2Fsvg%3E');
+    }
+    .current {
+      color: var(--gray800, #121212);
+      color: light-dark(var(--gray800, #121212), var(--white));
+      font-style: normal;
+      font-weight: 400;
+      a:hover {
+        text-decoration: underline;
+        text-decoration-thickness: 0.2rem;
+        text-underline-offset: 0.5rem;
+      }
+    }
+  }
   /*1.intro*/
   .intro {
     width: 100%;
-    padding: 1rem;
+    /* padding: 1rem; */
     box-sizing: border-box;
+    @media (max-width: 885px) {
+      padding: 1.6rem 3.2rem 4rem; /*임시*/
+      background-color: #eeeeee;
+      width: 100%;
+    }
 
     h1,
     p {
       width: 100%;
       word-break: keep-all; /* 단어 단위 줄바꿈 */
       box-sizing: border-box;
-    }
-
-    @media (max-width: 885px) {
-      width: 100%;
-      padding: 30px 15px;
     }
   }
 
@@ -105,12 +144,22 @@
 
     .icon-01 {
       background: url(../images/ico_contactus_01.svg) no-repeat center / contain;
+      width: 3.2rem;
+      height: 3.2rem;
+      background-color: red;
+      margin-bottom: 0.8rem;
     }
     .icon-02 {
       background: url(../images/ico_contactus_02.svg) no-repeat center / contain;
+      width: 3.2rem;
+      height: 3.2rem;
+      margin-bottom: 0.8rem;
     }
     .icon-03 {
       background: url(../images/ico_contactus_03.svg) no-repeat center / contain;
+      width: 3.2rem;
+      height: 3.2rem;
+      margin-bottom: 0.8rem;
     }
 
     .contact-info {
@@ -129,6 +178,7 @@
         flex: 1;
         padding: 1.6rem;
         display: grid;
+        gap: 0.8rem;
         align-items: center;
         text-align: center;
         justify-content: center;
