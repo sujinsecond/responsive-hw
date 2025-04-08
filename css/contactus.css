@@ -179,7 +179,7 @@
 
       .contact-card {
         flex: 1;
-        padding: 1.6rem;
+        /* padding: 1.6rem; */
         display: grid;
         gap: 0.8rem;
         align-items: center;

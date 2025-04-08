@@ -248,7 +248,7 @@ body {
   font-size: var(--fs, var(--body-2-size));
   line-height: var(--lh, var(--lh-base));
   letter-spacing: var(--ls, var(--ls-base));
-  font-weight: var(--fw, var(--fw-semibold));
+  font-weight: var(--fw, var(--fw-regular));
   font-family: var(--ff-body-semi);
 }
 

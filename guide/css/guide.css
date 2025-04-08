@@ -250,7 +250,11 @@ iframe {
   font-size: 1.6rem;
   line-height: 1;
   gap: 0.5rem;
-  color: light-dark(var(--blue600), var(--white));
+  color: light-dark(var(--blue600), var(--white)); /*작동안한다!*/
+
+  .color-change {
+    text-decoration: underline;
+  }
 
   &::before {
     content: '다크';
