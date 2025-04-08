@@ -50,6 +50,9 @@
 .mb8 {
   margin-bottom: 0.8rem;
 }
+.mb10 {
+  margin-bottom: 1.2rem;
+}
 .mb12 {
   margin-bottom: 1.2rem;
 }
@@ -97,6 +100,9 @@
 .ml8 {
   margin-left: 0.8rem;
 }
+.ml10 {
+  margin-left: 1rem;
+}
 .ml12 {
   margin-left: 1.2rem;
 }
@@ -128,6 +134,9 @@
 }
 .mr8 {
   margin-right: 0.8rem;
+}
+.mr10 {
+  margin-right: 1rem;
 }
 .mr12 {
   margin-right: 1.2rem;
@@ -161,6 +170,9 @@
 .pl8 {
   padding-left: 0.8rem;
 }
+.pl10 {
+  padding-left: 1rem;
+}
 .pl12 {
   padding-left: 1.2rem;
 }
@@ -193,6 +205,9 @@
 .pr8 {
   padding-right: 0.8rem;
 }
+.pr10 {
+  padding-right: 1rem;
+}
 .pr12 {
   padding-right: 1.2rem;
 }
@@ -224,6 +239,9 @@
 }
 .pt8 {
   padding-top: 0.8rem;
+}
+.pt10 {
+  padding-top: 1rem;
 }
 .pt12 {
   padding-top: 1.2rem;
@@ -265,6 +283,9 @@
 }
 .pb8 {
   padding-bottom: 0.8rem;
+}
+.pb10 {
+  padding-bottom: 1rem;
 }
 .pb12 {
   padding-bottom: 1.2rem;

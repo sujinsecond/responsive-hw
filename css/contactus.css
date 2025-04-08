@@ -87,8 +87,7 @@
     .headline-3 {
       @media (max-width: 885px) {
         font-size: var(--font-xxl);
-        line-height: var(--lh-lg);
-        /* font-weight: var(--fw-regular); */
+        line-height: var(--lh-7);
       }
     }
   }

@@ -7,32 +7,44 @@
 
   /* Gray Scale */
   --gray900: #d8d8d8;
-  --gray800: #141718; /* neutral-07-100 */
-  --gray700: #232627; /* neutral-06-100 */
-  --gray600: #343839; /* neutral-05-100 */
-  --gray500: #6c7275; /* neutral-04-100 */
+  --gray800: #141718;
+  --gray700: #232627;
+  --gray600: #343839;
+  --gray500: #6c7275;
   --gray400: #d8d8d8;
-  --gray300: #e8ecef; /* neutral-03-100 */
-  --gray200: #f3f5f7; /* neutral-02-100 */
-  --gray100: #fefefe; /* neutral-01-100 */
+  --gray300: #e8ecef;
+  --gray200: #f3f5f7;
+  --gray100: #fefefe;
 
   /* Alpha Colors */
-  --gray800-95: rgba(20, 23, 24, 0.95); /* neutral-07-95 */
-  --gray800-50: rgba(20, 23, 24, 0.5); /* neutral-07-50 */
-  --gray700-95: rgba(35, 38, 39, 0.95); /* neutral-06-95 */
-  --gray700-90: rgba(35, 38, 39, 0.9); /* neutral-06-90 */
-  --gray700-50: rgba(35, 38, 39, 0.5); /* neutral-06-50 */
-  --gray600-50: rgba(52, 56, 57, 0.5); /* neutral-05-50 */
-  --gray500-75: rgba(108, 114, 117, 0.75); /* neutral-04-75 */
-  --gray500-50: rgba(108, 114, 117, 0.5); /* neutral-04-50 */
-  --gray500-25: rgba(108, 114, 117, 0.25); /* neutral-04-25 */
-  --gray500-15: rgba(108, 114, 117, 0.15); /* neutral-04-15 */
-  --gray300-75: rgba(232, 236, 239, 0.75); /* neutral-03-75 */
-  --gray300-50: rgba(232, 236, 239, 0.5); /* neutral-03-50 */
-  --gray200-50: rgba(243, 245, 247, 0.5); /* neutral-02-50 */
-  --gray100-95: rgba(254, 254, 254, 0.95); /* neutral-01-95 */
-  --gray100-20: rgba(254, 254, 254, 0.2); /* neutral-01-20 */
-  --gray100-10: rgba(254, 254, 254, 0.1); /* neutral-01-10 */
+  --gray100-10: rgba(255, 255, 255, 0.1);
+  --gray100-20: rgba(255, 255, 255, 0.2);
+  --gray100-30: rgba(255, 255, 255, 0.3);
+  --gray100-40: rgba(255, 255, 255, 0.4);
+  --gray100-70: rgba(255, 255, 255, 0.7);
+  --gray100-80: rgba(255, 255, 255, 0.8);
+  --gray100-85: rgba(255, 255, 255, 0.85);
+  --gray100-90: rgba(255, 255, 255, 0.9);
+  --gray100-95: rgba(255, 255, 255, 0.95);
+
+  --gray200-50: rgba(243, 245, 247, 0.5);
+
+  --gray300-50: rgba(232, 236, 239, 0.5);
+  --gray300-75: rgba(232, 236, 239, 0.75);
+
+  --gray500-15: rgba(108, 114, 117, 0.15);
+  --gray500-25: rgba(108, 114, 117, 0.25);
+  --gray500-50: rgba(108, 114, 117, 0.5);
+  --gray500-75: rgba(108, 114, 117, 0.75);
+
+  --gray600-50: rgba(52, 56, 57, 0.5);
+
+  --gray700-95: rgba(35, 38, 39, 0.95);
+  --gray700-90: rgba(35, 38, 39, 0.9);
+  --gray700-50: rgba(35, 38, 39, 0.5);
+
+  --gray800-95: rgba(20, 23, 24, 0.95);
+  --gray800-50: rgba(20, 23, 24, 0.5);
 
   /* Red Colors */
   /* --red900: #2e0507;
@@ -82,57 +94,39 @@
   --success: var(--green600);
   --warning: var(--yellow600);
 
-  /* Font Sizes - Based on 10px/1rem as base */
-  --font-xxxs: 1.2rem; /* 12px */
-  --font-xxs: 1.4rem; /* 14px */
-  --font-xs: 1.6rem; /* 16px */
-  --font-sm: 1.8rem; /* 18px */
-  --font-base: 2rem; /* 20px */
-  --font-md: 2.4rem; /* 24px */
-  --font-lg: 2.8rem; /* 28px */
-  --font-xl: 3.2rem; /* 32px */
-  --font-xxl: 3.4rem; /* 34px */
-  --font-3xl: 4rem; /* 40px */
-  --font-4xl: 5.4rem; /* 54px */
-  --font-5xl: 7.2rem; /* 72px */
-  --font-6xl: 8rem; /* 80px */
-  --font-7xl: 9.6rem; /* 96px */
+  /* Font Families */
+  --ff-heading: 'Poppins', sans-serif;
+  --ff-body: 'Inter', sans-serif;
+  --ff-button: 'Inter', sans-serif;
 
-  /* Figma Text Styles Mapping */
-  --hero-size: var(--font-7xl); /* 9.6rem (96px) */
-  --headline-1-size: var(--font-6xl); /* 8rem (80px) */
-  --headline-2-size: var(--font-5xl); /* 7.2rem (72px) */
-  --headline-3-size: var(--font-4xl); /* 5.4rem (54px) */
-  --headline-4-size: var(--font-3xl); /* 4rem (40px) */
-  --headline-5-size: var(--font-xxl); /* 3.4rem (34px) */
-  --headline-6-size: var(--font-lg); /* 2.8rem (28px) */
-  --headline-7-size: var(--font-base); /* 2rem (20px) */
-  --body-1-size: var(--font-base); /* 2rem (20px) */
-  --body-2-size: var(--font-xs); /* 1.6rem (16px) */
-  --caption-1-size: var(--font-xxs); /* 1.4rem (14px) */
-  --caption-2-size: var(--font-xxxs); /* 1.2rem (12px) */
+  /* Font Sizes, 10px/1rem */
+  --font-xxxs: 1.2rem;
+  --font-xxs: 1.4rem;
+  --font-xs: 1.6rem;
+  --font-sm: 1.8rem;
+  --font-base: 2rem;
+  --font-md: 2.4rem;
+  --font-lg: 2.8rem;
+  --font-xl: 3.2rem;
+  --font-xxl: 3.4rem;
+  --font-3xl: 4rem;
+  --font-4xl: 5.4rem;
+  --font-5xl: 7.2rem;
+  --font-6xl: 8rem;
+  --font-7xl: 9.6rem;
 
   /* Line Heights */
-  --lh-xxxs: 1; /* 12px (hairline-2) */
-  --lh-xxs: 1; /* 16px (hairline-1) */
-  --lh-xs: 1.43; /* 20px (caption-2) */
-  --lh-sm: 1.57; /* 22px (caption-1) */
-  --lh-base: 1.625; /* 26px (body-2) */
-  --lh-md: 1.6; /* 32px (body-1) */
-  --lh-lg: 1.21; /* 34px (headline-6) */
-  --lh-xl: 1.12; /* 38px (headline-5) */
-  --lh-xxl: 1.1; /* 44px (headline-4) */
-  --lh-3xl: 1.07; /* 58px (headline-3) */
-  --lh-4xl: 1.06; /* 76px (headline-2) */
-  --lh-5xl: 1.05; /* 84px (headline-1) */
-  --lh-6xl: 1; /* 96px (hero) */
-  --lh-7xl: 2; /* test */
-
-  /* Letter Spacing */
-  --ls-sm: -0.02rem; /* -0.2px for smaller text */
-  --ls-base: 0; /* Default for most text */
-  --ls-md: -0.04rem; /* -0.4px for headline-4 */
-  --ls-lg: -0.1rem; /* -1px for headline-3 */
+  --lh-1: 1;
+  --lh-2: 1.05;
+  --lh-3: 1.06;
+  --lh-4: 1.07;
+  --lh-5: 1.1;
+  --lh-6: 1.12;
+  --lh-7: 1.21;
+  --lh-8: 1.43;
+  --lh-9: 1.57;
+  --lh-10: 1.6;
+  --lh-11: 1.625;
 
   /* Font Weights */
   --fw-xlight: 200;
@@ -142,12 +136,11 @@
   --fw-semibold: 600;
   --fw-bold: 700;
 
-  /* Font Families */
-  --ff-heading: 'Poppins', sans-serif;
-  --ff-body: 'Inter', sans-serif;
-  --ff-body-semi: 'Inter', sans-serif;
-  --ff-body-bold: 'Inter', sans-serif;
-  --ff-button: 'Inter', sans-serif;
-
-  /*img-test*/
+  /* Letter Spacing */
+  --ls-xs: -0.01rem;
+  --ls-sm: -0.02rem;
+  --ls-base: 0;
+  --ls-md: -0.04rem;
+  --ls-lg: -0.1rem;
+  --ls-xlg: -0.16rem;
 }
