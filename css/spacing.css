@@ -71,6 +71,21 @@
 .mb48 {
   margin-bottom: 4.8rem;
 }
+.mb56 {
+  margin-bottom: 5.6rem;
+}
+.mb64 {
+  margin-bottom: 6.4rem;
+}
+.mb72 {
+  margin-bottom: 7.2rem;
+}
+.mb80 {
+  margin-bottom: 8rem;
+}
+.mb88 {
+  margin-bottom: 8.8rem;
+}
 
 /* Margin Left */
 .ml2 {
@@ -219,7 +234,7 @@
 .pt20 {
   padding-top: 2rem;
 }
-.pt24 {
+.pt24pt {
   padding-top: 2.4rem;
 }
 .pt32 {
@@ -230,6 +245,15 @@
 }
 .pt48 {
   padding-top: 4.8rem;
+}
+.pt56 {
+  padding-top: 5.6rem;
+}
+.pt64 {
+  padding-top: 6.4rem;
+}
+.pt72 {
+  padding-top: 7.2rem;
 }
 
 /* Padding Bottom */
@@ -262,4 +286,13 @@
 }
 .pb48 {
   padding-bottom: 4.8rem;
+}
+.pb56 {
+  padding-bottom: 5.6rem;
+}
+.pb64 {
+  padding-bottom: 6.4rem;
+}
+.pb72 {
+  padding-bottom: 7.2rem;
 }

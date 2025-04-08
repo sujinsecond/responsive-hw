@@ -127,7 +127,7 @@
 
     .about-text {
       flex: 1;
-      padding: 20px;
+      /* padding: 20px; */
       box-sizing: border-box;
       background-color: light-dark(var(--gray200), var(--gray100-10));
 
@@ -192,7 +192,7 @@
         flex: 1;
         display: grid;
         gap: 0.8rem;
-        align-items: center;
+        align-items: start;
         text-align: center;
         justify-content: center;
         background-color: light-dark(var(--gray200), var(--gray100-20));
