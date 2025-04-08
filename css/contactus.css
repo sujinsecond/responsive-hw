@@ -23,6 +23,7 @@
   .top-group {
     display: flex;
     justify-content: space-between;
+
     @media (max-width: 885px) {
       padding: 0 3.2rem;
     }
@@ -73,7 +74,7 @@
     /* padding: 1rem; */
     box-sizing: border-box;
     @media (max-width: 885px) {
-      padding: 1.6rem 3.2rem 4rem; /*임시*/
+      padding: 0 3.2rem;
       width: 100%;
     }
 
@@ -82,6 +83,13 @@
       width: 100%;
       word-break: keep-all; /* 단어 단위 줄바꿈 */
       box-sizing: border-box;
+    }
+    .headline-3 {
+      @media (max-width: 885px) {
+        font-size: var(--font-xxl);
+        line-height: var(--lh-lg);
+        /* font-weight: var(--fw-regular); */
+      }
     }
   }
 
