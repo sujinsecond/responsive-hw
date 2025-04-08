@@ -24,20 +24,20 @@
   color: var(--color);
   font-size: var(--fontSize);
   font-weight: var(--fontWeight);
-  background-color: light-dark(var(--gray200), var(--gray800));
+  background-color: light-dark(var(--gray200), var(--gray100-20));
 
   /* 호버 시 자연스러운 전환을 위한 트랜지션 추가 */
   transition: background-color 0.2s, border-color 0.2s, box-shadow 0.2s;
 
   &::placeholder {
     color: var(--placeholderColor);
-    background-color: light-dark(var(--white), var(--gray800));
+    background-color: light-dark(var(--white), var(--gray100-30));
   }
   &:hover {
     border-color: var(--hoverBorderColor);
     /* border: 0.2rem solid var(--borderColor); */
     box-shadow: 0 0 0 0px var(--hoverBorderColor);
-    background-color: light-dark(var(--gray300), var(--gray100-20));
+    background-color: light-dark(var(--gray300), var(--gray800));
   }
   &:focus {
     border-color: var(--focusBorderColor);
