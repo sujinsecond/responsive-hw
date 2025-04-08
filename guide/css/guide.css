@@ -1,6 +1,6 @@
 @import url(../../css/reset.css);
 body {
-  --bg: light-dark(#f2f3f6, #222);
+  --bg: light-dark(#f2f3f6, #333);
   --summaryColor: #000;
   --summaryActiveColor: slateblue;
   --sideWidth: 25rem;
@@ -250,7 +250,7 @@ iframe {
   font-size: 1.6rem;
   line-height: 1;
   gap: 0.5rem;
-  color: light-dark(var(--gray700), var(--white));
+  color: light-dark(var(--blue600), var(--white));
 
   &::before {
     content: '다크';

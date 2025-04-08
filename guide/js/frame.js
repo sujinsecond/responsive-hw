@@ -7,11 +7,12 @@ export const frame = () => {
   if (!frame) return;
 
   // 프레임CSS
+  //background-color:light-dark(#fff, #333); 여기 시작 시작시 지운다!!
   const frameCSS = () => {
     const style = frame.contentWindow.document.createElement('style');
     style.textContent = /* css */ `
       body{ 
-        background-color:light-dark(#fff, #333);
+        // background-color:light-dark(#fff, #333); 
         &::-webkit-scrollbar {
           width: 10px;
           background-color:rgba(0, 0, 0, 0.02);

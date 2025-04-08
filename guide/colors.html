@@ -1,51 +1,49 @@
 <!DOCTYPE html>
 <html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Colors</title>
+    <script type="module" src="./js/colors.js"></script>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Colors</title>
-  <script type="module" src="./js/colors.js"></script>
-  <link rel="stylesheet" href="../css/style.css" />
-</head>
+  <body class="colors-bg">
+    <h2>Gray</h2>
+    <ul class="colors gray"></ul>
+    <h2>Red</h2>
+    <ul class="colors red"></ul>
+    <h2>Yellow</h2>
+    <ul class="colors yellow"></ul>
+    <h2>Green</h2>
+    <ul class="colors green"></ul>
+    <h2>Blue</h2>
+    <ul class="colors blue"></ul>
 
-<body>
-  <h2>Gray</h2>
-  <ul class="colors gray"></ul>
-  <h2>Red</h2>
-  <ul class="colors red"></ul>
-  <h2>Yellow</h2>
-  <ul class="colors yellow"></ul>
-  <h2>Green</h2>
-  <ul class="colors green"></ul>
-  <h2>Blue</h2>
-  <ul class="colors blue"></ul>
-
-  <style>
-    .colors {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(95px, 1fr));
-      gap: 10px;
-
-      li {
+    <style>
+      .colors {
         display: grid;
-        gap: 5px;
-        font-size: 16px;
-        color: #111827;
-      }
+        grid-template-columns: repeat(auto-fit, minmax(95px, 1fr));
+        gap: 10px;
 
-      div {
-        font-size: 14px;
-        color: #7c7c7c;
-      }
+        li {
+          display: grid;
+          gap: 5px;
+          font-size: 16px;
+          color: #111827;
+        }
 
-      span {
-        width: 100%;
-        aspect-ratio: 16/9;
-        border-radius: 5px;
-      }
-    }
-  </style>
-</body>
+        div {
+          font-size: 14px;
+          color: #7c7c7c;
+        }
 
+        span {
+          width: 100%;
+          aspect-ratio: 16/9;
+          border-radius: 5px;
+        }
+      }
+    </style>
+  </body>
 </html>

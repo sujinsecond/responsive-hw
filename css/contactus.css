@@ -18,7 +18,6 @@
   @media (max-width: 885px) {
     width: 100%;
     max-width: 100%;
-    /* background-color: rgb(182, 255, 80); */
   }
   /*breadcrumb*/
   .breadcrumb {
@@ -36,7 +35,6 @@
       display: flex;
       gap: 0.5rem;
       align-items: center;
-      /* background-color: lemonchiffon; */
       a:hover {
         text-decoration: underline;
         text-decoration-thickness: 0.2rem;
@@ -146,7 +144,6 @@
       background: url(../images/ico_contactus_01.svg) no-repeat center / contain;
       width: 3.2rem;
       height: 3.2rem;
-      background-color: red;
       margin-bottom: 0.8rem;
     }
     .icon-02 {
@@ -244,7 +241,6 @@
   }
 
   /* Form field 영역 */
-
   .form-field {
     display: grid;
     gap: 0.8rem;
