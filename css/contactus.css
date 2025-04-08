@@ -92,6 +92,7 @@
     width: 100%;
     overflow: hidden;
     margin: 0;
+    border-radius: 0.4rem;
 
     @media (max-width: 885px) {
       flex-direction: column;
@@ -187,6 +188,7 @@
         text-align: center;
         justify-content: center;
         background-color: light-dark(var(--gray200), var(--gray100-20));
+        border-radius: 0.4rem;
 
         @media (max-width: 885px) {
           width: 100%;
