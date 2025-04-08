@@ -437,3 +437,9 @@ b {
     margin-bottom: 2rem;
   }
 }
+.info-text {
+  font-size: 1.2rem;
+  margin-left: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.01rem;
+}
