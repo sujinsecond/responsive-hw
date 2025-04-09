@@ -8,8 +8,20 @@
 .mt4 {
   margin-top: 0.4rem;
 }
+.mt6 {
+  margin-top: 0.6rem;
+}
+.mt7 {
+  margin-top: 0.7rem;
+}
 .mt8 {
   margin-top: 0.8rem;
+}
+.mt9 {
+  margin-top: 0.9rem;
+}
+.mt10 {
+  margin-top: 1rem;
 }
 .mt12 {
   margin-top: 1.2rem;
@@ -46,6 +58,15 @@
 }
 .mb4 {
   margin-bottom: 0.4rem;
+}
+.mb5 {
+  margin-bottom: 0.5rem;
+}
+.mb6 {
+  margin-bottom: 0.6rem;
+}
+.mb7 {
+  margin-bottom: 0.7rem;
 }
 .mb8 {
   margin-bottom: 0.8rem;
