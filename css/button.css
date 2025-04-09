@@ -54,6 +54,9 @@
   &.text-black {
     color: light-dark(var(--gray800), var(--white));
   }
+  &.text-blue {
+    color: light-dark(var(--blue600), var(--white));
+  }
   &:disabled {
     opacity: 0.2;
   }
