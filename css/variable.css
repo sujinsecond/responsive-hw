@@ -78,14 +78,12 @@
 
   /* Blue Colors */
   /* --blue900: #030e3b; */
-  --blue800: #0e2b5e;
-  --blue700: #16408d;
-  --blue680: #092fcd;
+  --blue800: #00256b;
+  --blue700: #0049d1;
   --blue600: #377dff; /* Blue from Figma */
-  /* --blue400: #5089ef; */
+  --blue500: #6b9fff;
   /* --blue300: #7ca6f3;
-  --blue200: #a7c4f7;
-  --blue100: #d3e1fb; */
+  --blue200: #a7c4f7;*/
 
   /* Semantic Colors */
   --primary: var(--blue600);
