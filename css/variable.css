@@ -105,7 +105,8 @@
   --font-xs: 1.6rem;
   --font-sm: 1.8rem;
   --font-base: 2rem;
-  --font-md: 2.4rem;
+  --font-smd: 2.2rem; /* 22px 추가 */
+  --font-md: 2.6rem; /* 26px추가 */
   --font-lg: 2.8rem;
   --font-xl: 3.2rem;
   --font-xxl: 3.4rem;
@@ -124,9 +125,12 @@
   --lh-6: 1.12;
   --lh-7: 1.21;
   --lh-8: 1.43;
+  --lh-8-2: 1.462; /*추가*/
+  --lh-9-1: 1.545; /*추가*/
   --lh-9: 1.57;
   --lh-10: 1.6;
   --lh-11: 1.625;
+  --lh-12: 1.714;
 
   /* Font Weights */
   --fw-xlight: 200;

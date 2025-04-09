@@ -14,89 +14,42 @@ body {
 }
 
 /* Text Size Utilities */
-.text-xxxs {
+
+/* 96px */
+/* ------- 1.히어로 -------- */
+.hero {
+  /* --color: light-dark(var(--blue600), var(--white)); */
   color: var(--color, var(--gray800));
-  font-size: var(--fs, var(--font-xxxs));
+  font-size: var(--fs, var(--font-7xl));
   line-height: var(--lh, var(--lh-1));
   letter-spacing: var(--ls, var(--ls-base));
-  font-weight: var(--fw, var(--fw-regular));
+  font-weight: var(--fw, var(--fw-medium));
+  font-family: var(--ff-heading);
 }
 
-.text-xxs {
-  color: var(--color, var(--gray800));
-  font-size: var(--fs, var(--font-xxs));
-  line-height: var(--lh, var(--lh-8));
-  letter-spacing: var(--ls, var(--ls-base));
-  font-weight: var(--fw, var(--fw-regular));
-}
+/* ------- 2.헤드라인 ------- */
 
-.text-xs {
+/* 80px */
+.headline-1 {
   color: var(--color, var(--gray800));
-  font-size: var(--fs, var(--font-xs));
-  line-height: var(--lh, var(--lh-11));
-  letter-spacing: var(--ls, var(--ls-base));
-  font-weight: var(--fw, var(--fw-regular));
-}
-
-.text-sm {
-  color: var(--color, var(--gray800));
-  font-size: var(--fs, var(--font-sm));
-  line-height: var(--lh, var(--lh-11));
-  letter-spacing: var(--ls, var(--ls-base));
-  font-weight: var(--fw, var(--fw-regular));
-}
-
-.text-base {
-  color: var(--color, var(--gray800));
-  font-size: var(--fs, var(--font-base));
-  line-height: var(--lh, var(--lh-10));
-  letter-spacing: var(--ls, var(--ls-base));
-  font-weight: var(--fw, var(--fw-regular));
-}
-
-.text-md {
-  color: var(--color, var(--gray800));
-  font-size: var(--fs, var(--font-md));
-  line-height: var(--lh, var(--lh-10));
-  letter-spacing: var(--ls, var(--ls-base));
-  font-weight: var(--fw, var(--fw-regular));
-}
-
-.text-lg {
-  color: var(--color, var(--gray800));
-  font-size: var(--fs, var(--font-lg));
-  line-height: var(--lh, var(--lh-7));
-  letter-spacing: var(--ls, var(--ls-base));
-  font-weight: var(--fw, var(--fw-regular));
-}
-
-.text-xl {
-  color: var(--color, var(--gray800));
-  font-size: var(--fs, var(--font-xl));
-  line-height: var(--lh, var(--lh-7));
-  letter-spacing: var(--ls, var(--ls-base));
-  font-weight: var(--fw, var(--fw-regular));
-}
-
-.text-xxl {
-  color: var(--color, var(--gray800));
-  font-size: var(--fs, var(--font-xxl));
-  line-height: var(--lh, var(--lh-6));
+  font-size: var(--fs, var(--font-6xl));
+  line-height: var(--lh, var(--lh-2));
   letter-spacing: var(--ls, var(--ls-base));
   font-weight: var(--fw, var(--fw-medium));
   font-family: var(--ff-heading);
 }
 
-.text-3xl {
+/* 72px */
+.headline-2 {
   color: var(--color, var(--gray800));
-  font-size: var(--fs, var(--font-3xl));
-  line-height: var(--lh, var(--lh-5));
-  letter-spacing: var(--ls, var(--ls-md));
+  font-size: var(--fs, var(--font-5xl));
+  line-height: var(--lh, var(--lh-3));
+  letter-spacing: var(--ls, var(--ls-base));
   font-weight: var(--fw, var(--fw-medium));
   font-family: var(--ff-heading);
 }
-
-.text-4xl {
+/* 54px */
+.headline-3 {
   color: var(--color, var(--gray800));
   font-size: var(--fs, var(--font-4xl));
   line-height: var(--lh, var(--lh-4));
@@ -105,147 +58,188 @@ body {
   font-family: var(--ff-heading);
 }
 
-.text-5xl {
-  color: var(--color, var(--gray800));
-  font-size: var(--fs, var(--font-5xl));
-  line-height: var(--lh, var(--lh-3));
-  letter-spacing: var(--ls, var(--ls-base));
-  font-weight: var(--fw, var(--fw-medium));
-  font-family: var(--ff-heading);
-}
-
-.text-6xl {
-  color: var(--color, var(--gray800));
-  font-size: var(--fs, var(--font-6xl));
-  line-height: var(--lh, var(--lh-2));
-  letter-spacing: var(--ls, var(--ls-base));
-  font-weight: var(--fw, var(--fw-medium));
-  font-family: var(--ff-heading);
-}
-
-.text-7xl {
-  color: var(--color, var(--gray800));
-  font-size: var(--fs, var(--font-7xl));
-  line-height: var(--lh, var(--lh-1));
-  letter-spacing: var(--ls, var(--ls-base));
-  font-weight: var(--fw, var(--fw-medium));
-  font-family: var(--ff-heading);
-}
-
-/* Figma Text */
-.hero {
-  color: light-dark(var(--gray800), var(--blue600));
-  font-size: var(--fs, var(--font-7xl));
-  line-height: var(--lh, var(--lh-1));
-  letter-spacing: var(--ls, var(--ls-base));
-  font-weight: var(--fw, var(--fw-medium));
-  font-family: var(--ff-heading);
-}
-
-/* 8rem */
-.headline-1 {
-  color: light-dark(var(--gray800), var(--blue600));
-  font-size: var(--fs, var(--font-6xl));
-  line-height: var(--lh, var(--lh-2));
-  letter-spacing: var(--ls, var(--ls-base));
-  font-weight: var(--fw, var(--fw-medium));
-  font-family: var(--ff-heading);
-}
-
-/* 7.2rem */
-.headline-2 {
-  color: light-dark(var(--gray800), var(--blue600));
-  font-size: var(--fs, var(--font-5xl));
-  line-height: var(--lh, var(--lh-3));
-  letter-spacing: var(--ls, var(--ls-base));
-  font-weight: var(--fw, var(--fw-medium));
-  font-family: var(--ff-heading);
-}
-/* 5.4rem */
-.headline-3 {
-  color: light-dark(var(--gray800), var(--gray800));
-  font-size: var(--fs, var(--font-4xl));
-  line-height: var(--lh, var(--lh-4));
-  letter-spacing: var(--ls, var(--ls-xlg));
-  font-weight: var(--fw, var(--fw-medium));
-  font-family: var(--ff-heading);
-}
-/* 4rem */
+/* 40px */
 .headline-4 {
-  color: light-dark(var(--gray800), var(--gray800));
+  color: var(--color, var(--gray800));
   font-size: var(--fs, var(--font-3xl));
   line-height: var(--lh, var(--lh-5));
   letter-spacing: var(--ls, var(--ls-md));
   font-weight: var(--fw, var(--fw-medium));
   font-family: var(--ff-heading);
 }
-/* 3.4rem */
+
+/* 34px */
 .headline-5 {
-  color: light-dark(var(--gray800), var(--blue600));
+  color: var(--color, var(--gray800));
   font-size: var(--fs, var(--font-xxl));
   line-height: var(--lh, var(--lh-6));
   letter-spacing: var(--ls, var(--ls-base));
   font-weight: var(--fw, var(--fw-medium));
   font-family: var(--ff-heading);
 }
-/* 2.8rem */
+
+/* 28px */
 .headline-6 {
-  color: light-dark(var(--gray800), var(--blue600));
+  color: var(--color, var(--gray800));
   font-size: var(--fs, var(--font-lg));
   line-height: var(--lh, var(--lh-7));
   letter-spacing: var(--ls, var(--ls-base));
-  font-weight: var(--fw, var(--fw-medium));
-  font-family: var(--ff-heading);
+  font-weight: var(--fw, var(--fw-regular));
 }
-/* 2rem */
+
+/* 20px */
 .headline-7 {
-  color: light-dark(var(--gray800), var(--blue600));
+  color: var(--color, var(--gray800));
   font-size: var(--fs, var(--font-base));
-  line-height: var(--lh, var(--lh-10));
+  line-height: var(--lh, var(--lh-7));
   letter-spacing: var(--ls, var(--ls-base));
-  font-weight: var(--fw, var(--fw-medium));
-  font-family: var(--ff-heading);
+  font-weight: var(--fw, var(--fw-regular));
 }
-/* 2rem */
+
+/* ------- 3.바디 ------ */
+
+/* 20px */
 .body-1-reg {
-  color: light-dark(var(--blue600), var(--blue600));
+  color: var(--color, var(--gray800));
   font-size: var(--fs, var(--font-base));
   line-height: var(--lh, var(--lh-10));
   letter-spacing: var(--ls, var(--ls-base));
   font-weight: var(--fw, var(--fw-regular));
-  font-family: var(--ff-body);
 }
 
-/* 2rem */
-.body-1-bold {
-  color: light-dark(var(--blue600), var(--blue600));
-  font-size: var(--fs, var(--font-base));
-  line-height: var(--lh, var(--lh-10));
-  letter-spacing: var(--ls, var(--ls-base));
-  font-weight: var(--fw, var(--fw-bold));
-  font-family: var(--ff-body);
-}
-/* 1.6rem  */
+/* 16px */
 .body-2-reg {
-  color: light-dark(var(--blue600), var(--white));
+  color: var(--color, var(--gray800));
   font-size: var(--fs, var(--font-xs));
   line-height: var(--lh, var(--lh-11));
-  letter-spacing: var(--ls, var(--ls-xs));
+  letter-spacing: var(--ls, var(--ls-base));
   font-weight: var(--fw, var(--fw-regular));
-  font-family: var(--ff-body);
 }
 
-/* 1.4rem  */
-.body-3-semibold {
-  --color: light-dark(var(--blue600), var(--white));
-  color: var(--color, var(--gray700));
+/* ------- 4.button, 버튼 ------ */
 
+/* 14px */
+.button-xs {
+  color: var(--color, var(--gray800));
   font-size: var(--fs, var(--font-xxs));
+  line-height: var(--lh, var(--lh-8));
+  letter-spacing: var(--ls, var(--ls-base));
+  font-weight: var(--fw, var(--fw-regular));
+}
+
+/* 18px */
+.button-m {
+  color: var(--color, var(--gray800));
+  font-size: var(--fs, var(--font-sm));
   line-height: var(--lh, var(--lh-11));
   letter-spacing: var(--ls, var(--ls-base));
-  font-weight: var(--fw, var(--fw-semibold));
-  font-family: var(--ff-body);
+  font-weight: var(--fw, var(--fw-regular));
 }
+
+/* 22px x*/
+.button-large {
+  color: var(--color, var(--gray800));
+  font-size: var(--fs, var(--font-smd));
+  line-height: var(--lh, var(--lh-8-2));
+  letter-spacing: var(--ls, var(--ls-base));
+  font-weight: var(--fw, var(--fw-regular));
+}
+
+/* 26px */
+.button-xlarge {
+  color: var(--color, var(--gray800));
+  font-size: var(--fs, var(--font-md));
+  line-height: var(--lh, var(--lh-9-1));
+  letter-spacing: var(--ls, var(--ls-base));
+  font-weight: var(--fw, var(--fw-regular));
+}
+
+/* ------- 5.캡션------ */
+
+/* 14px */
+.caption-1 {
+  color: var(--color, var(--gray800));
+  font-size: var(--fs, var(--font-xxs));
+  line-height: var(--lh, var(--lh-1));
+  letter-spacing: var(--ls, var(--ls-base));
+  font-weight: var(--fw, var(--fw-regular));
+}
+/* 12px */
+.caption-2 {
+  color: var(--color, var(--gray800));
+  font-size: var(--fs, var(--font-xxxs));
+  line-height: var(--lh, var(--lh-1));
+  letter-spacing: var(--ls, var(--ls-base));
+  font-weight: var(--fw, var(--fw-regular));
+}
+
+/* ------- 6.헤어라인 ------ */
+
+/* 16px/16px */
+.hairline-1 {
+  /* color: light-dark(var(--gray800), var(--blue700)); */
+  color: var(--color, var(--gray800));
+  font-family: var(--ff-body);
+  font-size: var(--font-xxs);
+  line-height: var(--lh-1);
+  font-weight: var(--fw-bold);
+  text-transform: uppercase;
+}
+/* 12px/12px */
+.hairline-2 {
+  /* color: light-dark(var(--gray500), var(--blue800)); */
+  color: var(--color, var(--gray800));
+  font-family: var(--ff-body);
+  font-size: var(--font-xxxs);
+  line-height: var(--lh-1);
+  font-weight: var(--fw-bold);
+  text-transform: uppercase;
+}
+
+/* ---- 7.버튼 스타일 ---- */
+.btn-xs {
+  font-family: var(--ff-button);
+  font-size: var(--font-xxs); /* 14px */
+  line-height: var(--lh-12); /* 24px */
+  font-weight: var(--fw-medium);
+  letter-spacing: var(--ls-base);
+}
+
+.btn-s {
+  font-family: var(--ff-button);
+  font-size: var(--font-xs); /* 16px */
+  line-height: 1.75; /* 28px */
+  font-weight: var(--fw-bold);
+  letter-spacing: var(--ls-xs);
+}
+
+.btn-m {
+  font-family: var(--ff-button);
+  font-size: var(--font-sm); /* 18px */
+  line-height: 1.778; /*32px */
+  font-weight: var(--fw-medium);
+  letter-spacing: var(--ls-base);
+}
+
+.btn-l {
+  font-family: var(--ff-button);
+  font-size: 2.2rem; /* 22px */
+  line-height: var(--lh-9-1); /* 34px, 1.545 */
+  font-weight: var(--fw-medium);
+  letter-spacing: var(--ls-base);
+}
+
+.btn-xl {
+  font-family: var(--ff-button);
+  font-size: 2.6rem; /* 26px */
+  line-height: var(--lh-8-2) 1.462; /* 38px */
+  font-weight: var(--fw-medium);
+  letter-spacing: var(--ls-base);
+}
+
+/* ---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
 
 /* Weight */
 .font-regular {
@@ -264,7 +258,7 @@ body {
   font-weight: var(--fw-bold);
 }
 
-/* Bold and Strong */
+/* Bold, Strong */
 strong,
 b {
   &[class*='text-'] {
@@ -272,67 +266,7 @@ b {
   }
 }
 
-/* Hairline Text (All Caps) */
-.hairline-1 {
-  color: light-dark(var(--gray800), var(--blue700));
-  font-family: var(--ff-body);
-  font-size: var(--font-xxs);
-  line-height: var(--lh-1);
-  font-weight: var(--fw-bold);
-  text-transform: uppercase;
-}
-
-.hairline-2 {
-  color: light-dark(var(--gray500), var(--blue800));
-  font-family: var(--ff-body);
-  font-size: var(--font-xxxs);
-  line-height: var(--lh-1);
-  font-weight: var(--fw-bold);
-  text-transform: uppercase;
-}
-
-/* Button Text Styles */
-.btn-xs {
-  font-family: var(--ff-button);
-  font-size: var(--font-xxs);
-  line-height: var(--lh-9);
-  font-weight: var(--fw-medium);
-  letter-spacing: var(--ls-base);
-}
-
-.btn-s {
-  font-family: var(--ff-button);
-  font-size: var(--font-xs);
-  line-height: 1.75; /* 28px */
-  font-weight: var(--fw-bold);
-  letter-spacing: var(--ls-xs);
-}
-
-.btn-m {
-  font-family: var(--ff-button);
-  font-size: var(--font-sm);
-  line-height: 1.778; /* 32px */
-  font-weight: var(--fw-medium);
-  letter-spacing: var(--ls-base);
-}
-
-.btn-l {
-  font-family: var(--ff-button);
-  font-size: 2.2rem; /* 22px */
-  line-height: 1.545; /* 34px */
-  font-weight: var(--fw-medium);
-  letter-spacing: var(--ls-base);
-}
-
-.btn-xl {
-  font-family: var(--ff-button);
-  font-size: 2.6rem; /* 26px */
-  line-height: 1.462; /* 38px */
-  font-weight: var(--fw-medium);
-  letter-spacing: var(--ls-base);
-}
-
-/* Link Styles */
+/* 링크스타일 */
 .link {
   cursor: pointer;
 }

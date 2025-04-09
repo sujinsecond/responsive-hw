@@ -9,15 +9,13 @@
     }
   }
 
-  max-width: 1120px;
+  max-width: 1160px;
   margin: 0 auto;
-  padding: 0;
   overflow: hidden;
   box-sizing: border-box;
 
   @media (max-width: 885px) {
     width: 100%;
-    max-width: 100%;
   }
 
   .top-group {
@@ -25,7 +23,7 @@
     justify-content: space-between;
 
     @media (max-width: 885px) {
-      padding: 0 3.2rem;
+      /* padding: 0 3.2rem; */
     }
   }
 
@@ -71,10 +69,10 @@
   /*1.intro*/
   .intro {
     width: 100%;
-    /* padding: 1rem; */
     box-sizing: border-box;
+
     @media (max-width: 885px) {
-      padding: 0 3.2rem;
+      /* padding: 0 3.2rem; */
       width: 100%;
     }
 
@@ -143,7 +141,6 @@
 
     @media (max-width: 885px) {
       width: 100%;
-      padding: 30px 0;
     }
 
     /* Icon styles */
@@ -180,11 +177,14 @@
       display: flex;
       gap: 2.4rem;
       justify-content: space-between;
+      margin: 0 auto;
+      box-sizing: border-box;
 
       @media (max-width: 885px) {
         flex-direction: column; /* 세로 방향으로 변경 */
         gap: 1.2rem;
         align-items: center;
+        width: 100%;
       }
 
       .contact-card {
@@ -219,12 +219,12 @@
 
     .contact-form {
       flex: 1;
-      padding: 2rem 0;
+      /* padding: 2rem 0; */
       box-sizing: border-box;
 
       @media (max-width: 885px) {
         width: 100%;
-        padding: 2rem;
+        /* padding: 2rem; */
       }
     }
     .map {
@@ -278,5 +278,11 @@
         font-size: 2.4rem;
       }
     }
+  }
+
+  /* ------ 글자색상 변경, theme ------ */
+  .body-2-reg {
+    --color: light-dark(var(--blue600), var(--white));
+    color: var(--color, var(--gray800));
   }
 }
