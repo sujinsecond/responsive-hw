@@ -83,7 +83,7 @@
       box-sizing: border-box;
     }
     .headline-3 {
-      --color: light-dark(var(--gray800), var(--gray800));
+      --color: light-dark(var(--gray800), var(--gray100-50));
       @media (max-width: 885px) {
         font-size: var(--font-xxl);
         line-height: var(--lh-7);
@@ -93,7 +93,8 @@
 
   /*2.about us*/
   .about {
-    background-color: var(--gray100-20);
+    /* background-color: var(--gray100-20); */
+    background-color: light-dark(var(--gray100-20), var(--gray100-90));
     display: flex;
     width: 100%;
     overflow: hidden;
@@ -284,7 +285,9 @@
   /* ------ 글자색상 변경, theme ------ */
   .body-2-reg {
     /* --color: light-dark(var(--blue600), var(--white)); */
-    --color: light-dark(var(--gray800), var(--white));
-    color: var(--color, var(--gray800));
+    --color: light-dark(var(--gray800), var(--gray100-80));
+  }
+  .body-2-reg-2 {
+    --color: light-dark(var(--gray800), var(--gray100-80));
   }
 }

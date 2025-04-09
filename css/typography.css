@@ -5,7 +5,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+KR:wght@100..900&family=Poppins:wght@400;500&display=swap');
 
 body {
-  background-color: light-dark(var(--gray100), var(--blue600)); /*전체 배경 색상 변경!!*/
+  /* background-color: light-dark(var(--gray100), var(--blue600)); */
+  background-color: light-dark(var(--gray100), var(--gray800)); /*전체 배경 색상 변경!!*/
   font-family: var(--ff-body);
   font-size: var(--fs, var(--font-xs)); /* 16px base */
   line-height: var(--lh-11);
@@ -116,6 +117,22 @@ body {
   font-weight: var(--fw, var(--fw-regular));
 }
 
+.body-2-reg-2 {
+  color: var(--color, var(--gray800));
+  font-size: var(--fs, var(--font-xs));
+  line-height: var(--lh, var(--lh-11));
+  letter-spacing: var(--ls, var(--ls-base));
+  font-weight: var(--fw, var(--fw-regular));
+}
+
+.body-2-reg-3 {
+  color: var(--color, var(--gray800));
+  font-size: var(--fs, var(--font-xs));
+  line-height: var(--lh, var(--lh-11));
+  letter-spacing: var(--ls, var(--ls-base));
+  font-weight: var(--fw, var(--fw-regular));
+}
+
 /* ------- 4.button, 버튼 ------ */
 
 /* 14px */
@@ -217,7 +234,7 @@ body {
   font-family: var(--ff-button);
   font-size: var(--font-sm); /* 18px */
   line-height: 1.778; /*32px */
-  font-weight: var(--fw-medium);
+  font-weight: var(--fw-semibold);
   letter-spacing: var(--ls-base);
 }
 
@@ -267,14 +284,21 @@ b {
 }
 
 /* 링크스타일 */
-.link {
+.link,
+.link2 {
   cursor: pointer;
 }
 
 .link:hover {
-  color: var(--gray600);
+  /* color: var(--gray400); */
   text-decoration: underline 0.3rem;
-  text-decoration-color: var(--gray800);
+  text-decoration-color: light-dark(var(--gray800), var(--white));
+  text-underline-offset: 0.8rem;
+}
+
+.link2:hover {
+  text-decoration: underline 0.3rem;
+  text-decoration-color: light-dark(var(--gray800), var(--gray800));
   text-underline-offset: 0.8rem;
 }
 
