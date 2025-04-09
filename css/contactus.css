@@ -135,6 +135,17 @@
         padding: 3rem 3.2rem 0;
       }
     }
+    /*spacing 질문 지점, 잘 안되어서 !important지정했습니다. 🤔*/
+    .pt64 {
+      @media (width < 885px) {
+        padding-top: 4rem !important;
+      }
+    }
+    .pb24 {
+      @media (width < 885px) {
+        padding-bottom: 4rem !important;
+      }
+    }
   }
 
   /*3.Contact us area*/
