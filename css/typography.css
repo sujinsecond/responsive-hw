@@ -285,7 +285,8 @@ b {
 
 /* 링크스타일 */
 .link,
-.link2 {
+.link2,
+link3 {
   cursor: pointer;
 }
 
@@ -293,13 +294,19 @@ b {
   /* color: var(--gray400); */
   text-decoration: underline 0.3rem;
   text-decoration-color: light-dark(var(--gray800), var(--white));
-  text-underline-offset: 0.8rem;
+  text-underline-offset: 0.6rem;
 }
 
 .link2:hover {
   text-decoration: underline 0.3rem;
   text-decoration-color: light-dark(var(--gray800), var(--gray800));
-  text-underline-offset: 0.8rem;
+  text-underline-offset: 0.6rem;
+}
+
+.link3:hover {
+  text-decoration: underline 0.3rem;
+  text-decoration-color: light-dark(var(--gray800), var(--gray100-40));
+  text-underline-offset: 0.6rem;
 }
 
 /* Text Colors */
