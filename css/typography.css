@@ -202,6 +202,7 @@ body {
   font-weight: var(--fw-bold);
   text-transform: uppercase;
 }
+
 /* 12px/12px */
 .hairline-2 {
   /* color: light-dark(var(--gray500), var(--blue800)); */
