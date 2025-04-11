@@ -11,18 +11,16 @@
   &.base {
     --px: 4rem;
     --py: 0.4rem;
-    --fs: 1.6rem;
 
     padding-inline: var(--px);
     padding-block: var(--py);
-    font-size: var(--fs, var(--font-base));
+    font-size: var(--fs, var(--font-xs));
     border-radius: 0.8rem;
     line-height: var(--lh-13);
   }
   &.md {
     --px: 4rem;
     --py: 0.4rem;
-    --fs: 2rem;
 
     padding-inline: var(--px);
     padding-block: var(--py);
