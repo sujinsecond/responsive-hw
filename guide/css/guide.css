@@ -253,8 +253,6 @@ iframe {
   color: light-dark(var(--blue600), var(--white)); /*작동안한다!*/
 
   .color-change {
-    /* text-decoration: underline; */
-    text-decoration: underline 0.3rem;
     text-underline-offset: 0.6rem;
   }
 

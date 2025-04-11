@@ -292,8 +292,7 @@ b {
 }
 
 .link:hover {
-  /* color: var(--gray400); */
-  text-decoration: underline 0.3rem;
+  text-decoration: underline 0.4rem;
   text-decoration-color: light-dark(var(--gray800), var(--white));
   text-underline-offset: 0.6rem;
 }

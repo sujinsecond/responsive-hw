@@ -299,6 +299,9 @@
 }
 .pt64 {
   padding-top: 6.4rem;
+  /* @media (width < 885px) {
+    padding-top: 4rem;
+  } */
 }
 .pt72 {
   padding-top: 7.2rem;
@@ -328,6 +331,9 @@
 }
 .pb24 {
   padding-bottom: 2.4rem;
+  /* @media (width < 885px) {
+    padding-bottom: 4rem;
+  } */
 }
 .pb32 {
   padding-bottom: 3.2rem;
