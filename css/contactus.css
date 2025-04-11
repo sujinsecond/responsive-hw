@@ -1,4 +1,7 @@
 .about-wrap {
+  padding-inline: 2rem;
+  box-sizing: border-box;
+
   .mb40 {
     margin-bottom: 4rem;
   }
@@ -130,13 +133,20 @@
       box-sizing: border-box;
       background-color: light-dark(var(--gray200), var(--white));
 
+      /*padding 여기다가 적용*/
+      padding-top: 6.4rem;
+      padding-bottom: 2.4rem;
+      padding-inline: 2.4rem;
+
       @media (max-width: 885px) {
         width: 100%;
-        padding: 3rem 3.2rem 0;
+        /* padding: 3rem 3.2rem 0; */
+        padding-top: 4rem;
+        padding-bottom: 4rem;
       }
     }
-    /*spacing 질문 지점, 잘 안되어서 !important지정했습니다. 🤔*/
-    .pt64 {
+    /*spacing 질문 지점 🤔*/
+    /* .pt64 {
       @media (width < 885px) {
         padding-top: 4rem;
       }
@@ -144,13 +154,13 @@
     .pb24 {
       @media (width < 885px) {
         padding-bottom: 4rem;
-      }
-    }
+      } 
+    }*/
   }
 
   /*3.Contact us area*/
   .contact {
-    width: 100%;
+    /* width: 100%; */
 
     @media (max-width: 885px) {
       width: 100%;
