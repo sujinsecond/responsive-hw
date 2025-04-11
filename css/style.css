@@ -1,4 +1,4 @@
-@layer reset, print, atom, molecules, organisms, template, utillity, page;
+@layer reset, print, atom, molecules, organisms, template, page, utillity;
 
 /* 기초정의 */
 @import url(./reset.css) layer(reset);

@@ -1,15 +1,10 @@
 .about-wrap {
   padding-inline: 2rem;
+  padding-bottom: 10rem;
   box-sizing: border-box;
 
-  .mb40 {
-    margin-bottom: 4rem;
-  }
-
   @media (max-width: 885px) {
-    .mb40 {
-      margin-bottom: 0 !important;
-    }
+    padding-bottom: 5rem;
   }
 
   max-width: 1160px;
@@ -132,101 +127,87 @@
         padding-bottom: 4rem;
       }
     }
-    /*spacing 질문 지점 🤔*/
-    /* .pt64 {
-      @media (width < 885px) {
-        padding-top: 4rem;
-      }
-    }
-    .pb24 {
-      @media (width < 885px) {
-        padding-bottom: 4rem;
-      } 
-    }*/
   }
 
   /*3.Contact us area*/
-  .contact {
+
+  /* Icon styles */
+  .icon-01,
+  .icon-02,
+  .icon-03 {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto 10px;
+  }
+
+  .icon-01 {
+    /* background: url(../images/ico_contactus_01.svg) no-repeat center / contain; */
+    background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2233%22%20height%3D%2232%22%20viewBox%3D%220%200%2033%2032%22%20fill%3D%22none%22%3E%20%20%20%3Cpath%20d%3D%22M27.5%2016V24C27.5%2026.9455%2025.1122%2029.3333%2022.1667%2029.3333H11.5C8.55447%2029.3333%206.16666%2026.9455%206.16666%2024V16%22%20stroke%3D%22%23141718%22%20stroke-width%3D%222.5%22%20stroke-linejoin%3D%22round%22%2F%3E%20%20%20%3Cpath%20d%3D%22M23.1916%202.66797H10.475C8.05185%202.66797%205.87284%204.32764%204.97291%206.8587L3.96226%209.70113C3.65633%2010.5616%203.44486%2011.4823%203.668%2012.3678C4.19646%2014.465%205.91096%2016.0013%207.94442%2016.0013C10.399%2016.0013%2012.3889%2013.7627%2012.3889%2011.0013C12.3889%2013.7627%2014.3787%2016.0013%2016.8333%2016.0013C19.2879%2016.0013%2021.2778%2013.7627%2021.2778%2011.0013C21.2778%2013.7627%2023.2676%2016.0013%2025.7222%2016.0013C27.7557%2016.0013%2029.4702%2014.465%2029.9986%2012.3678C30.2218%2011.4823%2030.0103%2010.5616%2029.7044%209.70113L28.6937%206.8587C27.7938%204.32764%2025.6148%202.66797%2023.1916%202.66797Z%22%20stroke%3D%22%23141718%22%20stroke-width%3D%222.5%22%20stroke-linejoin%3D%22round%22%2F%3E%20%20%20%3Cpath%20d%3D%22M12.8333%2025.332C12.8333%2023.1229%2014.6242%2021.332%2016.8333%2021.332C19.0425%2021.332%2020.8333%2023.1229%2020.8333%2025.332V29.332H12.8333V25.332Z%22%20stroke%3D%22%23141718%22%20stroke-width%3D%222.5%22%20stroke-linejoin%3D%22round%22%2F%3E%20%3C%2Fsvg%3E');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 3.2rem;
+    height: 3.2rem;
+    margin-bottom: 0.8rem;
+    background-color: light-dark(var(--gray200), var(--white));
+    border-radius: 8px;
+  }
+  .icon-02 {
+    /* background: url(../images/ico_contactus_02.svg) no-repeat center / contain; */
+    background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2233%22%20height%3D%2232%22%20viewBox%3D%220%200%2033%2032%22%20fill%3D%22none%22%3E%20%20%20%3Cpath%20d%3D%22M28.5%2025.3333V23.1388C28.5%2022.0483%2027.8361%2021.0678%2026.8237%2020.6628L24.1115%2019.5779C22.8238%2019.0629%2021.3563%2019.6208%2020.736%2020.8613L20.5%2021.3333C20.5%2021.3333%2017.1667%2020.6667%2014.5%2018C11.8333%2015.3333%2011.1667%2012%2011.1667%2012L11.6387%2011.764C12.8792%2011.1437%2013.4371%209.67618%2012.9221%208.38848L11.8372%205.67629C11.4322%204.66387%2010.4517%204%209.36125%204H7.16667C5.69391%204%204.5%205.19391%204.5%206.66667C4.5%2018.4487%2014.0513%2028%2025.8333%2028C27.3061%2028%2028.5%2026.8061%2028.5%2025.3333Z%22%20stroke%3D%22%23141718%22%20stroke-width%3D%222.5%22%20stroke-linejoin%3D%22round%22%2F%3E%20%3C%2Fsvg%3E');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 3.2rem;
+    height: 3.2rem;
+    margin-bottom: 0.8rem;
+    background-color: light-dark(var(--gray200), var(--white));
+    border-radius: 8px;
+  }
+  .icon-03 {
+    /* background: url(../images/ico_contactus_03.svg) no-repeat center / contain; */
+    background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2233%22%20height%3D%2232%22%20viewBox%3D%220%200%2033%2032%22%20fill%3D%22none%22%3E%20%20%20%3Cpath%20d%3D%22M8.16671%2010.6667L13.2083%2014.0277C14.9998%2015.222%2017.3336%2015.222%2019.1251%2014.0277L24.1667%2010.6667M8.16671%2028H24.1667C27.1122%2028%2029.5%2025.6122%2029.5%2022.6667V9.33333C29.5%206.38781%2027.1122%204%2024.1667%204H8.16671C5.22119%204%202.83337%206.38781%202.83337%209.33333V22.6667C2.83337%2025.6122%205.22119%2028%208.16671%2028Z%22%20stroke%3D%22%23141718%22%20stroke-width%3D%222.5%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%20%3C%2Fsvg%3E');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 3.2rem;
+    height: 3.2rem;
+    margin-bottom: 0.8rem;
+    background-color: light-dark(var(--gray200), var(--white));
+    border-radius: 8px;
+  }
+
+  .contact-info {
+    width: 100%;
+    display: flex;
+    gap: 2.4rem;
+    justify-content: space-between;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-bottom: 8rem;
+
     @media (max-width: 885px) {
+      flex-direction: column; /* 세로 방향으로 변경 */
+      gap: 1.2rem;
+      align-items: center;
       width: 100%;
+      padding-bottom: 4rem;
     }
 
-    /* Icon styles */
-    .icon-01,
-    .icon-02,
-    .icon-03 {
-      width: 48px;
-      height: 48px;
-      margin: 0 auto 10px;
-    }
-
-    .icon-01 {
-      /* background: url(../images/ico_contactus_01.svg) no-repeat center / contain; */
-      background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2233%22%20height%3D%2232%22%20viewBox%3D%220%200%2033%2032%22%20fill%3D%22none%22%3E%20%20%20%3Cpath%20d%3D%22M27.5%2016V24C27.5%2026.9455%2025.1122%2029.3333%2022.1667%2029.3333H11.5C8.55447%2029.3333%206.16666%2026.9455%206.16666%2024V16%22%20stroke%3D%22%23141718%22%20stroke-width%3D%222.5%22%20stroke-linejoin%3D%22round%22%2F%3E%20%20%20%3Cpath%20d%3D%22M23.1916%202.66797H10.475C8.05185%202.66797%205.87284%204.32764%204.97291%206.8587L3.96226%209.70113C3.65633%2010.5616%203.44486%2011.4823%203.668%2012.3678C4.19646%2014.465%205.91096%2016.0013%207.94442%2016.0013C10.399%2016.0013%2012.3889%2013.7627%2012.3889%2011.0013C12.3889%2013.7627%2014.3787%2016.0013%2016.8333%2016.0013C19.2879%2016.0013%2021.2778%2013.7627%2021.2778%2011.0013C21.2778%2013.7627%2023.2676%2016.0013%2025.7222%2016.0013C27.7557%2016.0013%2029.4702%2014.465%2029.9986%2012.3678C30.2218%2011.4823%2030.0103%2010.5616%2029.7044%209.70113L28.6937%206.8587C27.7938%204.32764%2025.6148%202.66797%2023.1916%202.66797Z%22%20stroke%3D%22%23141718%22%20stroke-width%3D%222.5%22%20stroke-linejoin%3D%22round%22%2F%3E%20%20%20%3Cpath%20d%3D%22M12.8333%2025.332C12.8333%2023.1229%2014.6242%2021.332%2016.8333%2021.332C19.0425%2021.332%2020.8333%2023.1229%2020.8333%2025.332V29.332H12.8333V25.332Z%22%20stroke%3D%22%23141718%22%20stroke-width%3D%222.5%22%20stroke-linejoin%3D%22round%22%2F%3E%20%3C%2Fsvg%3E');
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: contain;
-      width: 3.2rem;
-      height: 3.2rem;
-      margin-bottom: 0.8rem;
-      background-color: light-dark(var(--gray200), var(--white));
-      border-radius: 8px;
-    }
-    .icon-02 {
-      /* background: url(../images/ico_contactus_02.svg) no-repeat center / contain; */
-      background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2233%22%20height%3D%2232%22%20viewBox%3D%220%200%2033%2032%22%20fill%3D%22none%22%3E%20%20%20%3Cpath%20d%3D%22M28.5%2025.3333V23.1388C28.5%2022.0483%2027.8361%2021.0678%2026.8237%2020.6628L24.1115%2019.5779C22.8238%2019.0629%2021.3563%2019.6208%2020.736%2020.8613L20.5%2021.3333C20.5%2021.3333%2017.1667%2020.6667%2014.5%2018C11.8333%2015.3333%2011.1667%2012%2011.1667%2012L11.6387%2011.764C12.8792%2011.1437%2013.4371%209.67618%2012.9221%208.38848L11.8372%205.67629C11.4322%204.66387%2010.4517%204%209.36125%204H7.16667C5.69391%204%204.5%205.19391%204.5%206.66667C4.5%2018.4487%2014.0513%2028%2025.8333%2028C27.3061%2028%2028.5%2026.8061%2028.5%2025.3333Z%22%20stroke%3D%22%23141718%22%20stroke-width%3D%222.5%22%20stroke-linejoin%3D%22round%22%2F%3E%20%3C%2Fsvg%3E');
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: contain;
-      width: 3.2rem;
-      height: 3.2rem;
-      margin-bottom: 0.8rem;
-      background-color: light-dark(var(--gray200), var(--white));
-      border-radius: 8px;
-    }
-    .icon-03 {
-      /* background: url(../images/ico_contactus_03.svg) no-repeat center / contain; */
-      background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2233%22%20height%3D%2232%22%20viewBox%3D%220%200%2033%2032%22%20fill%3D%22none%22%3E%20%20%20%3Cpath%20d%3D%22M8.16671%2010.6667L13.2083%2014.0277C14.9998%2015.222%2017.3336%2015.222%2019.1251%2014.0277L24.1667%2010.6667M8.16671%2028H24.1667C27.1122%2028%2029.5%2025.6122%2029.5%2022.6667V9.33333C29.5%206.38781%2027.1122%204%2024.1667%204H8.16671C5.22119%204%202.83337%206.38781%202.83337%209.33333V22.6667C2.83337%2025.6122%205.22119%2028%208.16671%2028Z%22%20stroke%3D%22%23141718%22%20stroke-width%3D%222.5%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%20%3C%2Fsvg%3E');
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: contain;
-      width: 3.2rem;
-      height: 3.2rem;
-      margin-bottom: 0.8rem;
-      background-color: light-dark(var(--gray200), var(--white));
-      border-radius: 8px;
-    }
-
-    .contact-info {
-      width: 100%;
-      display: flex;
-      gap: 2.4rem;
-      justify-content: space-between;
-      margin: 0 auto;
-      box-sizing: border-box;
+    .contact-card {
+      flex: 1;
+      display: grid;
+      gap: 0.8rem;
+      align-items: start;
+      text-align: center;
+      justify-content: center;
+      background-color: light-dark(var(--gray200), var(--gray100-05));
+      border-radius: 0.4rem;
 
       @media (max-width: 885px) {
-        flex-direction: column; /* 세로 방향으로 변경 */
-        gap: 1.2rem;
-        align-items: center;
         width: 100%;
-      }
-
-      .contact-card {
-        flex: 1;
-        display: grid;
-        gap: 0.8rem;
-        align-items: start;
-        text-align: center;
-        justify-content: center;
-        background-color: light-dark(var(--gray200), var(--gray100-05));
-        border-radius: 0.4rem;
-
-        @media (max-width: 885px) {
-          width: 100%;
-          margin-bottom: 0;
-          padding: 1.6rem 1.2rem;
-        }
+        margin-bottom: 0;
+        padding: 1.6rem 1.2rem;
       }
     }
   }
@@ -273,11 +254,14 @@
   }
 
   .title-center {
-    padding-top: 3rem;
+    padding-top: 7.2rem;
     text-align: center;
     margin-bottom: 3rem;
-    width: 100%; /* 전체 너비 설정 */
-    box-sizing: border-box; /* 패딩을 포함한 크기 계산 */
+    @media (max-width: 886px) {
+      padding-top: 6rem;
+    }
+    width: 100%;
+    box-sizing: border-box;
   }
 
   /* Form field 영역 */
