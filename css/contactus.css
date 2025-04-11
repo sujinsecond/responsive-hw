@@ -35,7 +35,6 @@
     display: flex;
     align-items: center;
     gap: 0.8rem;
-    /* color: var(--gray500, #605f5f); */
     color: light-dark(var(--gray500, #605f5f), var(--gray200-50));
     font-family: Inter;
     font-size: 1.4rem;
@@ -46,11 +45,6 @@
       display: flex;
       gap: 0.5rem;
       align-items: center;
-      /* a:hover {
-        text-decoration: underline solid red;
-        text-decoration-thickness: 0.3rem;
-        text-underline-offset: 0.5rem;
-      } */
     }
     .bread-icon {
       width: 1.2rem;
@@ -61,11 +55,6 @@
       color: light-dark(var(--gray800, #121212), var(--white));
       font-style: normal;
       font-weight: 400;
-      /* a:hover {
-        text-decoration: underline solid blue;
-        text-decoration-thickness: 0.3rem;
-        text-underline-offset: 0.5rem;
-      } */
     }
   }
   /*1.intro*/
@@ -74,7 +63,6 @@
     box-sizing: border-box;
 
     @media (max-width: 885px) {
-      /* padding: 0 3.2rem; */
       width: 100%;
     }
 
@@ -96,7 +84,6 @@
 
   /*2.about us*/
   .about {
-    /* background-color: var(--gray100-20); */
     background-color: light-dark(var(--gray100-20), var(--gray100-05));
     display: flex;
     width: 100%;
@@ -160,8 +147,6 @@
 
   /*3.Contact us area*/
   .contact {
-    /* width: 100%; */
-
     @media (max-width: 885px) {
       width: 100%;
     }
@@ -172,7 +157,6 @@
     .icon-03 {
       width: 48px;
       height: 48px;
-
       margin: 0 auto 10px;
     }
 
