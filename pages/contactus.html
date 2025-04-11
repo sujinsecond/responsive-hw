@@ -19,18 +19,18 @@
     <header class="site-header"></header>
 
     <main>
-      <div class="about-wrap mb80">
+      <div class="about-wrap">
         <div class="top-group">
           <div class="breadcrumb">
             <div class="startpoint">
-              <span class="btn-start">
+              <span class="btn-start link">
                 <a href="#">Home</a>
               </span>
               <div class="bread-icon">
                 <!-- <img src="../images/chevron-right.svg" alt="" /> -->
               </div>
             </div>
-            <span class="current">
+            <span class="current link">
               <a href="#">Contact Us</a>
             </span>
           </div>
@@ -58,82 +58,81 @@
             <img src="../images/living-room.png" alt="living room" />
           </div>
 
-          <div class="about-text gray200 pt64 pb24 pl32 pr24">
+          <div class="about-text">
             <h2 class="headline-4 mb20">About Us</h2>
-            <p class="body-2-reg">
+            <p class="body-2-reg-3">
               3legant is a gift & decorations store based in HCMC, Vietnam. Est since 2019. Our
               customer service is always prepared to support you 24/7.
             </p>
-            <button class="btn btn-m text-black link mt32">Shop Now →</button>
+            <button class="btn btn-m text-black link2 mt32">Shop Now →</button>
           </div>
         </div>
 
         <!-- 3. 연락처 정보 영역 -->
-        <div class="contact mb80">
-          <h2 class="headline-4 title-center pt64">Contact Us</h2>
+        <h2 class="headline-4 headline-4-2 title-center">Contact Us</h2>
 
-          <div class="contact-info">
-            <div class="contact-card pt32 pb24 pl24 pr24">
-              <a href="#">
-                <div class="icon-01 mb8">
-                  <!-- <img src="address-icon.svg" alt="Address icon" /> -->
-                </div>
-                <h3 class="hairline-1 mb10 link">ADDRESS</h3>
-                <p class="body-3-semibold">234 Hai Trieu, Ho Chi Minh City, Viet Nam</p>
-              </a>
-            </div>
+        <ul class="contact-info pl20 pr20">
+          <li class="contact-card pt32 pb24 pl24 pr24">
+            <a href="#">
+              <div class="icon-01 mb9">
+                <!-- <img src="address-icon.svg" alt="Address icon" /> -->
+              </div>
+              <h3 class="hairline-2 mt10 mb6">ADDRESS</h3>
+              <p class="body-2-reg-2 link">234 Hai Trieu, Ho Chi Minh City, Viet Nam</p>
+            </a>
+          </li>
 
-            <div class="contact-card pt32 pb24 pl24 pr24">
-              <a href="#">
-                <div class="icon-02 mb8">
-                  <!-- <img src="phone-icon.svg" alt="Phone icon" /> -->
-                </div>
-                <h3 class="hairline-1 mb10 link">CONTACT US</h3>
-                <p class="body-3-semibold">+84 234 567 890</p>
-              </a>
-            </div>
+          <li class="contact-card pt32 pb24 pl24 pr24">
+            <a href="#">
+              <div class="icon-02 mb6">
+                <!-- <img src="phone-icon.svg" alt="Phone icon" /> -->
+              </div>
+              <h3 class="hairline-2 mt10 mb6">CONTACT US</h3>
+              <p class="body-2-reg-2 link">+84 234 567 890</p>
+            </a>
+          </li>
 
-            <div class="contact-card pt32 pb24 pl24 pr24">
-              <a href="#">
-                <div class="icon-03 mb8">
-                  <!-- <img src="email-icon.svg" alt="Email icon" /> -->
-                </div>
-                <h3 class="hairline-1 mb10 link">EMAIL</h3>
-                <p class="body-3-semibold">hello@3legant.com</p>
-              </a>
-            </div>
-          </div>
-        </div>
+          <li class="contact-card pt32 pb24 pl24 pr24">
+            <a href="#">
+              <div class="icon-03 mb6">
+                <!-- <img src="email-icon.svg" alt="Email icon" /> -->
+              </div>
+              <h3 class="hairline-2 mt10 mb6">EMAIL</h3>
+              <p class="body-2-reg-2 link">hello@3legant.com</p>
+            </a>
+          </li>
+        </ul>
 
         <!-- 4. 연락 양식 및 지도 영역 -->
         <div class="contact-form-area">
-          <form class="contact-form">
-            <div class="form-field">
-              <label for="fullname" class="hairline-2">FULL NAME</label>
-              <input type="text" class="text-field" id="fullname" placeholder="Your Name" />
-            </div>
+          <form class="contact-form" id="contactForm">
+            <fieldset>
+              <legend class="visually-hidden">문의 양식</legend>
 
-            <div class="form-field">
-              <label for="email" class="hairline-2">EMAIL ADDRESS</label>
-              <input type="email" class="text-field" id="email" placeholder="Your Email" />
-            </div>
+              <div class="form-field">
+                <label for="fullname" class="hairline-2">FULL NAME</label>
+                <input type="text" class="text-field" id="fullname" placeholder="Your Name" />
+              </div>
 
-            <div class="form-field">
-              <label for="message" class="hairline-2">MESSAGE</label>
-              <textarea id="message" placeholder="Your message" class="text-field"></textarea>
-            </div>
+              <div class="form-field">
+                <label for="email" class="hairline-2">EMAIL ADDRESS</label>
+                <input type="email" class="text-field" id="email" placeholder="Your Email" />
+              </div>
 
+              <div class="form-field">
+                <label for="message" class="hairline-2">MESSAGE</label>
+                <textarea id="message" placeholder="Your message" class="text-field"></textarea>
+              </div>
+            </fieldset>
             <button type="submit" class="btn base secondary">Send Message</button>
           </form>
-          <!--contact-form-->
+          <!--form-->
 
           <div class="map">
             <img src="../images/map.png" alt="Map showing store location in Ho Chi Minh City" />
           </div>
         </div>
-        <!--contact-form-div-->
       </div>
-      <!--about-wrap-->
     </main>
 
     <footer class="site-footer">

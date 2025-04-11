@@ -2,50 +2,70 @@
   --paddingX: 1rem;
   --width: auto;
   --height: 5rem;
-  --borderColor: light-dark(var(--gray800), var(--white));
+  --borderColor: light-dark(var(--gray600), var(--white));
   --rounded: 0.4rem;
   --fontSize: 1.8rem;
   --fontWeight: var(--fw-light);
 
-  --color: light-dark(var(--blue600), var(--white));
-  --placeholderColor: light-dark(var(--blue700), var(--blue600));
+  --color: light-dark(var(--gray800), var(--white));
+  --placeholderColor: light-dark(var(--gray800), var(--white));
   --disabled: 0.4;
-  --hoverBorderColor: light-dark(var(--blue600), var(--white));
-  --focusBorderColor: light-dark(var(--blue600), var(--white));
+  --hoverBorderColor: light-dark(var(--gray800), var(--white));
+  --focusBorderColor: light-dark(var(--gray800), var(--white));
 
   padding-inline: var(--paddingX);
   padding-block: var(--paddingY, 0);
   width: var(--width);
   height: var(--height);
 
-  border: 1px solid var(--borderColor);
+  border: 0.1rem solid var(--borderColor);
   border-radius: var(--rounded);
   box-sizing: border-box;
   color: var(--color);
   font-size: var(--fontSize);
   font-weight: var(--fontWeight);
-  background-color: light-dark(var(--gray200), var(--blue800));
+  background-color: light-dark(var(--gray100), var(--gray800));
+
+  /* 호버 시 자연스러운 전환을 위한 트랜지션 추가 */
+  transition: background-color 0.2s, border-color 0.2s, box-shadow 0.2s;
 
   &::placeholder {
     color: var(--placeholderColor);
-    background-color: light-dark(var(--gray300), var(--gray100-10));
+    background-color: light-dark(var(--gray300), var(--gray100-05));
   }
   &:hover {
     border-color: var(--hoverBorderColor);
-    border: 0.3rem solid var(--borderColor);
-    background-color: light-dark(var(--gray300), var(--gray100-20));
+    border: 0.12rem solid var(--borderColor);
+    box-shadow: 0 0 0 0px var(--hoverBorderColor);
+    background-color: light-dark(var(--gray800), var(--gray600));
+    color: light-dark(var(--white), var(--gray100-80));
   }
   &:focus {
     border-color: var(--focusBorderColor);
+    background-color: light-dark(var(--white), var(--gray800));
+    /* 동일한 방식으로 포커스 효과도 적용 */
+    box-shadow: 0 0 0 0px var(--focusBorderColor);
+    color: light-dark(var(--gray800), var(--gray100-80));
     outline: none;
   }
   &:disabled {
     opacity: var(--disabled);
-    /* mouse-cursor: none; */
+    cursor: not-allowed;
+    outline: none;
   }
   &.error {
-    border: 1px solid var(--danger);
+    border: 0.2rem solid var(--danger);
+    background-color: light-dark(var(--white), var(--white));
     color: var(--danger);
+  }
+  &.error:hover {
+    border-color: var(--danger);
+    background-color: light-dark(var(--white), var(--white));
+    outline: none;
+  }
+  &.error:focus {
+    border-color: var(--danger);
+    outline: none;
   }
 }
 textarea {

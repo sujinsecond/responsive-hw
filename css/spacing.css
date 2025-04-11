@@ -8,8 +8,20 @@
 .mt4 {
   margin-top: 0.4rem;
 }
+.mt6 {
+  margin-top: 0.6rem;
+}
+.mt7 {
+  margin-top: 0.7rem;
+}
 .mt8 {
   margin-top: 0.8rem;
+}
+.mt9 {
+  margin-top: 0.9rem;
+}
+.mt10 {
+  margin-top: 1rem;
 }
 .mt12 {
   margin-top: 1.2rem;
@@ -47,11 +59,23 @@
 .mb4 {
   margin-bottom: 0.4rem;
 }
+.mb5 {
+  margin-bottom: 0.5rem;
+}
+.mb6 {
+  margin-bottom: 0.6rem;
+}
+.mb7 {
+  margin-bottom: 0.7rem;
+}
 .mb8 {
   margin-bottom: 0.8rem;
 }
+.mb9 {
+  margin-bottom: 0.9rem;
+}
 .mb10 {
-  margin-bottom: 1.2rem;
+  margin-bottom: 1rem;
 }
 .mb12 {
   margin-bottom: 1.2rem;
@@ -88,6 +112,12 @@
 }
 .mb88 {
   margin-bottom: 8.8rem;
+}
+.mb100 {
+  margin-bottom: 10rem;
+}
+.mb120 {
+  margin-bottom: 12rem;
 }
 
 /* Margin Left */
@@ -269,6 +299,9 @@
 }
 .pt64 {
   padding-top: 6.4rem;
+  /* @media (width < 885px) {
+    padding-top: 4rem;
+  } */
 }
 .pt72 {
   padding-top: 7.2rem;
@@ -298,6 +331,9 @@
 }
 .pb24 {
   padding-bottom: 2.4rem;
+  /* @media (width < 885px) {
+    padding-bottom: 4rem;
+  } */
 }
 .pb32 {
   padding-bottom: 3.2rem;

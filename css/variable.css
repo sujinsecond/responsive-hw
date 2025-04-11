@@ -6,8 +6,8 @@
   --black: #000;
 
   /* Gray Scale */
-  --gray900: #d8d8d8;
-  --gray800: #141718;
+  --gray900: #111111;
+  --gray800: #141718; /*text*/
   --gray700: #232627;
   --gray600: #343839;
   --gray500: #6c7275;
@@ -17,6 +17,8 @@
   --gray100: #fefefe;
 
   /* Alpha Colors */
+  --gray100-03: rgba(255, 255, 255, 0.03);
+  --gray100-05: rgba(255, 255, 255, 0.05);
   --gray100-10: rgba(255, 255, 255, 0.1);
   --gray500-15: rgba(108, 114, 117, 0.15);
   --gray100-20: rgba(255, 255, 255, 0.2);
@@ -24,6 +26,7 @@
   --gray500-50: rgba(108, 114, 117, 0.5);
   --gray100-30: rgba(255, 255, 255, 0.3);
   --gray100-40: rgba(255, 255, 255, 0.4);
+  --gray100-50: rgba(255, 255, 255, 0.5);
   --gray100-70: rgba(255, 255, 255, 0.7);
   --gray500-75: rgba(108, 114, 117, 0.75);
   --gray100-80: rgba(255, 255, 255, 0.8);
@@ -72,14 +75,12 @@
 
   /* Blue Colors */
   /* --blue900: #030e3b; */
-  --blue800: #0e2b5e;
-  --blue700: #16408d;
-  --blue680: #092fcd;
+  --blue800: #00256b;
+  --blue700: #0049d1;
   --blue600: #377dff; /* Blue from Figma */
-  /* --blue400: #5089ef; */
+  --blue500: #6b9fff;
   /* --blue300: #7ca6f3;
-  --blue200: #a7c4f7;
-  --blue100: #d3e1fb; */
+  --blue200: #a7c4f7;*/
 
   /* Semantic Colors */
   --primary: var(--blue600);
@@ -99,7 +100,8 @@
   --font-xs: 1.6rem;
   --font-sm: 1.8rem;
   --font-base: 2rem;
-  --font-md: 2.4rem;
+  --font-smd: 2.2rem; /* 22px 추가 */
+  --font-md: 2.6rem; /* 26px추가 */
   --font-lg: 2.8rem;
   --font-xl: 3.2rem;
   --font-xxl: 3.4rem;
@@ -118,9 +120,12 @@
   --lh-6: 1.12;
   --lh-7: 1.21;
   --lh-8: 1.43;
+  --lh-8-2: 1.462; /*추가*/
+  --lh-9-1: 1.545; /*추가*/
   --lh-9: 1.57;
   --lh-10: 1.6;
   --lh-11: 1.625;
+  --lh-12: 1.714;
 
   /* Font Weights */
   --fw-xlight: 200;
