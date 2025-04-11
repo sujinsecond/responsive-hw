@@ -17,7 +17,7 @@
     padding-block: var(--py);
     font-size: var(--fs, var(--font-base));
     border-radius: 0.8rem;
-    line-height: var(--lh-7xl);
+    line-height: var(--lh-13);
   }
   &.md {
     --px: 4rem;
@@ -28,7 +28,7 @@
     padding-block: var(--py);
     font-size: var(--fs, var(--font-base));
     border-radius: 0.8rem;
-    line-height: var(--lh-7xl);
+    line-height: var(--lh-13);
   }
 
   /* -------------------------------------------------------------------------- */

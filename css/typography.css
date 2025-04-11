@@ -5,12 +5,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+KR:wght@100..900&family=Poppins:wght@400;500&display=swap');
 
 body {
-  /* background-color: light-dark(var(--gray100), var(--blue600)); */
   background-color: light-dark(var(--gray100), var(--gray800)); /*전체 배경 색상 변경!!*/
   font-family: var(--ff-body);
   font-size: var(--fs, var(--font-xs)); /* 16px base */
   line-height: var(--lh-11);
-  /* color: var(--gray800); */
   color: light-dark(var(--secondary), var(--white));
 }
 
@@ -19,7 +17,6 @@ body {
 /* 96px */
 /* ------- 1.히어로 -------- */
 .hero {
-  /* --color: light-dark(var(--blue600), var(--white)); */
   color: var(--color, var(--gray800));
   font-size: var(--fs, var(--font-7xl));
   line-height: var(--lh, var(--lh-1));
@@ -133,45 +130,7 @@ body {
   font-weight: var(--fw, var(--fw-regular));
 }
 
-/* ------- 4.button, 버튼 ------ */
-
-/* 14px */
-.button-xs {
-  color: var(--color, var(--gray800));
-  font-size: var(--fs, var(--font-xxs));
-  line-height: var(--lh, var(--lh-8));
-  letter-spacing: var(--ls, var(--ls-base));
-  font-weight: var(--fw, var(--fw-regular));
-}
-
-/* 18px */
-.button-m {
-  color: var(--color, var(--gray800));
-  font-size: var(--fs, var(--font-sm));
-  line-height: var(--lh, var(--lh-11));
-  letter-spacing: var(--ls, var(--ls-base));
-  font-weight: var(--fw, var(--fw-regular));
-}
-
-/* 22px x*/
-.button-large {
-  color: var(--color, var(--gray800));
-  font-size: var(--fs, var(--font-smd));
-  line-height: var(--lh, var(--lh-8-2));
-  letter-spacing: var(--ls, var(--ls-base));
-  font-weight: var(--fw, var(--fw-regular));
-}
-
-/* 26px */
-.button-xlarge {
-  color: var(--color, var(--gray800));
-  font-size: var(--fs, var(--font-md));
-  line-height: var(--lh, var(--lh-9-1));
-  letter-spacing: var(--ls, var(--ls-base));
-  font-weight: var(--fw, var(--fw-regular));
-}
-
-/* ------- 5.캡션------ */
+/* ------- 4.캡션------ */
 
 /* 14px */
 .caption-1 {
@@ -190,7 +149,7 @@ body {
   font-weight: var(--fw, var(--fw-regular));
 }
 
-/* ------- 6.헤어라인 ------ */
+/* ------- 5.헤어라인 ------ */
 
 /* 16px/16px */
 .hairline-1 {
