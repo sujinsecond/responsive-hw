@@ -298,7 +298,7 @@
     color: light-dark(var(--gray800), var(--gray100-30));
   }
   .headline-4 {
-    /* color: light-dark(var(--gray800), var(--gray800)); */
+    color: light-dark(var(--gray800), var(--gray800));
   }
   .headline-4-2 {
     color: light-dark(var(--gray800), var(--gray100-40));

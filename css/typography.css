@@ -58,11 +58,7 @@ body {
 
 /* 40px */
 .headline-4 {
-  /* --font-3xl: 2rem; */
-  /* --color: blue; */
-
-  /* color: var(--color, var(--gray800)); */
-  color: light-dark(var(--blue600), var(--green600));
+  color: var(--color, var(--gray800));
   font-size: var(--fs, var(--font-3xl));
   line-height: var(--lh, var(--lh-5));
   letter-spacing: var(--ls, var(--ls-md));
